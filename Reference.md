@@ -1,5 +1,5 @@
 # Reference List
 
-Introduction to Linear Algebra 5th [2016]
+1. Introduction to Linear Algebra 5th [2016] [Gilbert Strang]
 
 
