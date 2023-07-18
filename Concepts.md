@@ -9,6 +9,11 @@ The nullspace $`N(A)`$ consists of all solutions to $`A\mathbf{x}=0`$. These vec
 ### Reference
 Ref[1]: Section 3.2 
 
+## Minor of matrix
+
+### Reference
+[Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)
+
 ## Transpose
 The **transpose** of matrix $`A`$ is $`A^T`$ . The columns of $`A^T`$ are the rows of $`A`$. <br>
 
@@ -41,17 +46,32 @@ $`(A+B)^T=A^T+B^T`$ <br>
 $`(AB)^T=B^TA^T`$ <br>
 $`(A^{-1})^T=(A^T)^{-1} \implies (A^{-1}A)^T=A^T(A^{-1})^T=I^T=I=A^T(A^T)^{-1}`$ ($`A`$ is square matrix)  <br>
 
+## Cofactor Matrix
+
+
+### Reference
+[Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
 
 ## Square Matrix
 A **square matrix** is a matrix with an equal number of rows and columns.
-
 
 ### Reference
 [Square Matrix](https://www.cuemath.com/algebra/square-matrix/)
 
 ## Symmetric matrix
+A symmetric matrix is a square matrix that is equal to its transpose matrix. $`A=A^T`$
+
+### Properties
+
 
 ### Reference
+[Symmetric Matrix](https://www.cuemath.com/algebra/symmetric-matrix/)
+
+## Singular Matrix
+
+### Reference
+[Singular Matrix](https://www.cuemath.com/algebra/singular-matrix/)
+
 
 ## Skew-symmetric matrix
 In mathematics, a skew symmetric matrix is defined as the square matrix that is equal 
