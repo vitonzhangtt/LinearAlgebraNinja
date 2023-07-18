@@ -92,6 +92,7 @@ A symmetric matrix is a square matrix that is equal to its transpose matrix. $`A
 [Symmetric Matrix](https://www.cuemath.com/algebra/symmetric-matrix/)
 
 ## Singular Matrix
+A **singular matrix** is a square matrix if its **determinant** is 0.
 
 ### Reference
 [Singular Matrix](https://www.cuemath.com/algebra/singular-matrix/)
@@ -109,6 +110,8 @@ as, $`A = -A^T`$
 
 
 ## Matrix exponential
+
+
 
 $`(e^A)^T = e^{A^T}`$
 
