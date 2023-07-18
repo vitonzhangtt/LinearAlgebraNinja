@@ -6,6 +6,7 @@
 
 ## Matrix [^1]
 
+## TODO [^3] [^4]
 
 [^1]: [Exponentials and Rotations](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
 [^2]: [Exponential Function](https://www.cuemath.com/calculus/exponential-functions/)
