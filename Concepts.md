@@ -3,4 +3,8 @@
 ## column space
 
 ## nullspace
-The nullspace N(A) consists of all solutions to Ax=0. These vectors x are in Rn.
+A is a matrix with $`m \times n`$.
+The nullspace $`N(A)`$ consists of all solutions to $`A\mathbf{x}=0`$. These vectors $`\mathbf{x}`$ are in $`R^n`$.
+
+### Ref
+Ref[1]: Section 3.2 
