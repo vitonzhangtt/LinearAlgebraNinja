@@ -1,0 +1,15 @@
+# Matrix Exponentials
+
+## Exponential Function [^2] [^3]
+
+### Properties
+
+## Matrix [^1]
+
+
+[^1]: [Exponentials and Rotations](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
+[^2]: [Exponential Function](https://www.cuemath.com/calculus/exponential-functions/)
+[^3]: [The exponential function](https://mathinsight.org/exponential_function)
+
+
+
