@@ -39,11 +39,19 @@ For $`A_{m, n}`$ and $`B_{m, n}`$ matrix, there are the following properties of 
 $`(A^T)^T=A`$ <br>
 $`(A+B)^T=A^T+B^T`$ <br>
 $`(AB)^T=B^TA^T`$ <br>
-$`(A^{-1})^T=(A^T)^{-1}`$ <br>
+$`(A^{-1})^T=(A^T)^{-1} \implies (A^{-1}A)^T=A^T(A^{-1})^T=I^T=I=A^T(A^T)^{-1}`$ ($`A`$ is square matrix)  <br>
 
 
+## Square Matrix
+A **square matrix** is a matrix with an equal number of rows and columns.
 
 
+### Ref
+[Square Matrix](https://www.cuemath.com/algebra/square-matrix/)
+
+## Symmetric matrix
+
+### Ref
 
 ## Skew-symmetric matrix
 In mathematics, a skew symmetric matrix is defined as the square matrix that is equal 
