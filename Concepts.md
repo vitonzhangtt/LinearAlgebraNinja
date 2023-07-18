@@ -3,7 +3,7 @@
 ## Column space
 
 ## Nullspace
-A is a matrix with $`m \times n`$.
+$`A`$ is a matrix with $`m \times n`$, as $`A_{m,n}`$.
 The nullspace $`N(A)`$ consists of all solutions to $`A\mathbf{x}=0`$. These vectors $`\mathbf{x}`$ are in $`R^n`$.
 
 ### Ref
@@ -34,6 +34,16 @@ Ref[1]: Section 2.7
 
 
 ## Property of Transpose
+For $`A_{m, n}`$ and $`B_{m, n}`$ matrix, there are the following properties of transpose. <br>
+
+$`(A^T)^T=A`$ <br>
+$`(A+B)^T=A^T+B^T`$ <br>
+$`(AB)^T=B^TA^T`$ <br>
+$`(A^{-1})^T=(A^T)^{-1}`$ <br>
+
+
+
+
 
 ## Skew-symmetric matrix
 In mathematics, a skew symmetric matrix is defined as the square matrix that is equal 
