@@ -4,9 +4,9 @@
 
 ## Nullspace
 $`A`$ is a matrix with $`m \times n`$, as $`A_{m,n}`$.
-The nullspace $`N(A)`$ consists of all solutions to $`A\mathbf{x}=0`$. These vectors $`\mathbf{x}`$ are in $`R^n`$.
+The nullspace $`N(A)`$ consists of all solutions to $`A\mathbf{x}=0`$. These vectors $`\mathbf{x}`$ are in $`R^n`$. 
 
-### Ref
+### Reference
 Ref[1]: Section 3.2 
 
 ## Transpose
@@ -29,7 +29,7 @@ A^T = \begin{pmatrix}
       \end{pmatrix} 
 `$
 
-### Ref
+### Reference
 Ref[1]: Section 2.7 
 
 
@@ -46,12 +46,12 @@ $`(A^{-1})^T=(A^T)^{-1} \implies (A^{-1}A)^T=A^T(A^{-1})^T=I^T=I=A^T(A^T)^{-1}`$
 A **square matrix** is a matrix with an equal number of rows and columns.
 
 
-### Ref
+### Reference
 [Square Matrix](https://www.cuemath.com/algebra/square-matrix/)
 
 ## Symmetric matrix
 
-### Ref
+### Reference
 
 ## Skew-symmetric matrix
 In mathematics, a skew symmetric matrix is defined as the square matrix that is equal 
@@ -60,11 +60,19 @@ For any square matrix, $`A`$, the transpose matrix is given as $`A^T`$. <br>
 A skew-symmetric or antisymmetric matrix $`A`$ can therefore be represented 
 as, $`A = -A^T`$
 
-### Ref
+### Reference
 [Skew Symmetric Matrix](https://www.cuemath.com/algebra/skew-symmetric-matrix/)
 
 
 ## Matrix exponential
+
+$`(e^A)^T = e^{A^T}`$
+
+$`(A^2)^T=A^TA^T`$
+$`(A^3)^T=A^TA^TA^T \implies (A^n)^T=(A^T)^n `$
+
+
+### Reference
 
 
 
