@@ -31,8 +31,8 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 ## Property A: $`(e^A)^T=e^{A^T}`$
 $`A^T`$ is transpose of matrix $`A`$.
 
-$`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}`$ and $`{A^n}^T=(A^T)^n`$
-
+Accroding to properties of transpose [^10], we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
+$`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^n)}^T}{n!}=(\displaystyle{\sum_{n=0}^{\infty} \frac{(A^n)}{n!}})^T=(e^A)^T`$
 ### Proof
 
 
@@ -48,5 +48,6 @@ $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}`$ and $`{A^n}^T=
 [^8]: [What Is the Matrix Exponential?](https://nhigham.com/2020/05/28/what-is-the-matrix-exponential/)
 [^9]: [The Matrix exponential, Dynamic
 Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
+[^10]: [Transpose of Matrix exponential](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#ant--atn)
 
 
