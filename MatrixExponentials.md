@@ -49,6 +49,6 @@ $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\su
 [^8]: [What Is the Matrix Exponential?](https://nhigham.com/2020/05/28/what-is-the-matrix-exponential/)
 [^9]: [The Matrix exponential, Dynamic
 Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
-[^10]: [Transpose properties]([https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#ant--atn](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)
+[^10]: [Transpose properties](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)
 
 
