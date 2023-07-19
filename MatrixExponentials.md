@@ -25,6 +25,16 @@ $`e^A=I+A+\frac{A^2}{2!}+\frac{A^3}{3!}+\dots`$ <br>
 Let $`A^0=I`$, then
 $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$  
 
+### Definition as limit
+
+
+## Property A: $`(e^A)^T=e^{A^T}`$
+$`A^T`$ is transpose of matrix $`A`$.
+
+$`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}`$ and $`{A^n}^T=(A^T)^n`$
+
+### Proof
+
 
 ## TODO [^3] [^4]
 
