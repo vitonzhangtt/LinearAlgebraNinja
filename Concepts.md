@@ -62,13 +62,13 @@ A^T = \begin{pmatrix}
 Ref[1]: Section 2.7 
 
 
-## Property of Transpose
+## Properties
 For $`A_{m, n}`$ and $`B_{m, n}`$ matrix, there are the following properties of transpose. <br>
 
-$`(A^T)^T=A`$ <br>
-$`(A+B)^T=A^T+B^T`$ <br>
-$`(AB)^T=B^TA^T`$ <br>
-$`(A^{-1})^T=(A^T)^{-1} \implies (A^{-1}A)^T=A^T(A^{-1})^T=I^T=I=A^T(A^T)^{-1}`$ ($`A`$ is square matrix)  <br>
+1. $`(A^T)^T=A`$ <br>
+2. $`(A+B)^T=A^T+B^T`$ <br>
+3. $`(AB)^T=B^TA^T`$ <br>
+4. $`(A^{-1})^T=(A^T)^{-1} \implies (A^{-1}A)^T=A^T(A^{-1})^T=I^T=I=A^T(A^T)^{-1}`$ ($`A`$ is square matrix)  <br>
 
 ## Cofactor Matrix
 
