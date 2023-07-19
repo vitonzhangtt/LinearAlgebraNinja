@@ -89,6 +89,14 @@ A **square matrix** is a matrix with an equal number of rows and columns.
 ### Reference
 [Square Matrix](https://www.cuemath.com/algebra/square-matrix/)
 
+## Orthogonal matrix
+An **orthogonal matrix** is a **square matrix** A if and only its transpose is as same as <br>
+its inverse. i.e., $`A^T = A^{-1}`$, where $`A^T`$ is the transpose of $`A`$ and $`A^{-1}`$ is the inverse of A. <br>
+So for orthogonal matrix A, $`A{A^T}=I_{n}`$
+
+### Reference
+https://www.cuemath.com/algebra/orthogonal-matrix/
+
 ## Symmetric matrix
 A symmetric matrix is a square matrix that is equal to its transpose matrix. $`A=A^T`$
 
