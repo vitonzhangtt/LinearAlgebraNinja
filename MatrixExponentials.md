@@ -31,9 +31,10 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 ## Property A: $`(e^A)^T=e^{A^T}`$
 $`A^T`$ is transpose of matrix $`A`$.
 
+### Proof
 Accroding to properties of transpose [^10], we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
 $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^n)}^T}{n!}=(\displaystyle{\sum_{n=0}^{\infty} \frac{(A^n)}{n!}})^T=(e^A)^T`$
-### Proof
+
 
 
 ## TODO [^3] [^4]
