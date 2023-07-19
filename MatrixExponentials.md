@@ -15,10 +15,16 @@ $`f(x)=e^x`$
 Power function is a function which has a variable as the base and a constant as the exponent, 
 $`f(x)=x^a`$.
 
-### Exponential Series [^2]
-$`e^x=`$
+### Power Series Expansion [^6]
+$`e^x=\displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}`$
 
-## Matrix [^1]
+## Matrix Exponential [^8]
+The exponential of a square matrix A is defined by the power series: <br>
+$`e^A=I+A+\frac{A^2}{2!}+\frac{A^3}{3!}+\dots`$ <br>
+
+Let $`A^0=I`$, then
+$`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$  
+
 
 ## TODO [^3] [^4]
 
@@ -26,7 +32,9 @@ $`e^x=`$
 [^2]: [Exponential Function](https://www.cuemath.com/calculus/exponential-functions/)
 [^3]: [The exponential function](https://mathinsight.org/exponential_function)
 [^4]: [The Matrix Exponential](https://nesinkoyleri.org/wp-content/uploads/2021/07/Exponential.pdf)
-[^5]: [wiki: Matrix_exponential]https://en.wikipedia.org/wiki/Matrix_exponential
-
+[^5]: [wiki: Matrix_exponential](https://en.wikipedia.org/wiki/Matrix_exponential)
+[^6]: [Power Series Expansion for Exponential Function](https://proofwiki.org/wiki/Power_Series_Expansion_for_Exponential_Function)
+[^7]: [7.8 Matrix exponentials](https://web.uvic.ca/~tbazett/diffyqs/sec_matexp.html)
+[^8]: [What Is the Matrix Exponential?](https://nhigham.com/2020/05/28/what-is-the-matrix-exponential/)
 
 
