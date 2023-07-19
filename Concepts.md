@@ -102,8 +102,14 @@ A **singular matrix** is a square matrix if its **determinant** is 0.
 In mathematics, a skew symmetric matrix is defined as the square matrix that is equal 
 to the negative of its transpose matrix. <br>
 For any square matrix, $`A`$, the transpose matrix is given as $`A^T`$. <br>
-A skew-symmetric or antisymmetric matrix $`A`$ can therefore be represented 
-as, $`A = -A^T`$
+A **skew-symmetric** or **antisymmetric** matrix $`A`$ can therefore be represented 
+as, $`A = -A^T`$. For example,
+
+$`A= \begin{pmatrix}
+      0 & 4 & 3 \\
+      -4 & 0 & -6 \\
+      -3 & 6 & 0 \\
+      \end{pmatrix} `$
 
 ### Reference
 [Skew Symmetric Matrix](https://www.cuemath.com/algebra/skew-symmetric-matrix/)
