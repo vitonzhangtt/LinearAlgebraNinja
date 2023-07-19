@@ -67,10 +67,11 @@ For $`A_{m, n}`$ and $`B_{m, n}`$ matrix, there are the following properties of 
 
 1. $`(A^T)^T=A`$ <br>
 2. $`(A+B)^T=A^T+B^T`$ <br>
-3. $`(AB)^T=B^TA^T`$ <br>
+3. $`(AB)^T=B^TA^T`$  (Here $`A_{m,n}, B_{n,m}`$) <br> 
 4. $`(A^{-1})^T=(A^T)^{-1} \implies (A^{-1}A)^T=A^T(A^{-1})^T=I^T=I=A^T(A^T)^{-1}`$ ($`A`$ is square matrix)  <br>
+5. $`(A^n)^T = (A^T)^n`$
 
-### $`(A^n)^T = (A^T)^n`$
+### Proof: $`(A^n)^T = (A^T)^n`$
 For property 3, when $`A=B`$ we have the following: <br>
 $`(A^2)^T=A^TA^T=(A^T)^2`$ <br>
 $`(A^3)^T=A^TA^TA^T=(A^T)^3 \implies (A^n)^T=(A^T)^n `$
