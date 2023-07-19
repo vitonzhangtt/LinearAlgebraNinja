@@ -62,7 +62,7 @@ A^T = \begin{pmatrix}
 Ref[1]: Section 2.7 
 
 
-## Properties
+## Properties of Transpose
 For $`A_{m, n}`$ and $`B_{m, n}`$ matrix, there are the following properties of transpose. <br>
 
 1. $`(A^T)^T=A`$ <br>
