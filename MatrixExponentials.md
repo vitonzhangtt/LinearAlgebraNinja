@@ -46,5 +46,7 @@ $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}`$ and $`{A^n}^T=
 [^6]: [Power Series Expansion for Exponential Function](https://proofwiki.org/wiki/Power_Series_Expansion_for_Exponential_Function)
 [^7]: [7.8 Matrix exponentials](https://web.uvic.ca/~tbazett/diffyqs/sec_matexp.html)
 [^8]: [What Is the Matrix Exponential?](https://nhigham.com/2020/05/28/what-is-the-matrix-exponential/)
+[^9]: [The Matrix exponential, Dynamic
+Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
 
 
