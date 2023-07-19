@@ -9,7 +9,7 @@ The nullspace $`N(A)`$ consists of all solutions to $`A\mathbf{x}=0`$. These vec
 ### Reference
 Ref[1]: Section 3.2 
 
-## Minor of matrix (for a specific element)
+## Minor of a specific element
 **Minor** of matrix for a particular element in the matrix is defined as <br>
 the matrix obtained after deleting the row and column of the matrix  <br>
 in which that particular element lies.
@@ -33,7 +33,7 @@ M_{12} =  \begin{pmatrix}
 `$
 
 
-## Minor matrix
+## Minor of matrix
 
 ### Reference
 [Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)
