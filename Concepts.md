@@ -70,6 +70,12 @@ For $`A_{m, n}`$ and $`B_{m, n}`$ matrix, there are the following properties of 
 3. $`(AB)^T=B^TA^T`$ <br>
 4. $`(A^{-1})^T=(A^T)^{-1} \implies (A^{-1}A)^T=A^T(A^{-1})^T=I^T=I=A^T(A^T)^{-1}`$ ($`A`$ is square matrix)  <br>
 
+### $`(A^n)^T = (A^T)^n`$
+For property 3, when $`A=B`$ we have the following: <br>
+$`(A^2)^T=A^TA^T=(A^T)^2`$ <br>
+$`(A^3)^T=A^TA^TA^T=(A^T)^3 \implies (A^n)^T=(A^T)^n `$
+
+
 ## Cofactor Matrix
 
 
@@ -117,12 +123,6 @@ $`A= \begin{pmatrix}
 
 ## Matrix exponential
 
-
-
-$`(e^A)^T = e^{A^T}`$
-
-$`(A^2)^T=A^TA^T`$
-$`(A^3)^T=A^TA^TA^T \implies (A^n)^T=(A^T)^n `$
 
 
 ### Reference
