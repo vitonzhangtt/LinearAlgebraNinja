@@ -215,7 +215,8 @@ A^{\mathrm {H}}=
 [Conjugate transpose](https://en.wikipedia.org/wiki/Conjugate_transpose)
 
 ## Unitary matrix
-A unitary matrix is a square matrix of complex numbers, whose inverse is equal to its [conjugate transpose](#Conjugate transpose (matrix)).
+A unitary matrix is a square matrix of complex numbers, whose inverse is equal to <br>
+its [conjugate transpose](#conjugate-transpose-matrix). If $`U^{\mathrm {H}}=U^{-1}`$, then U is unitary matrix.
 
 
 ### Reference
