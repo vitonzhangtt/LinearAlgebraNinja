@@ -177,14 +177,38 @@ $`
 [Complex Conjugate](https://www.cuemath.com/numbers/complex-conjugate/) 
 
 
-## Conjugate transpose
-In mathematics, the conjugate transpose, also known as the **Hermitian transpose**, of an <br>
+## Conjugate transpose (matrix)
+In mathematics, the **conjugate transpose**, also known as the **Hermitian transpose**, of an <br>
 $`m \times n`$ complex matrix $`{\boldsymbol {A}}`$ is an $`n\times m`$ matrix obtained <br>
 by transposing $`{\boldsymbol {A}}`$ and applying complex conjugate on each entry. <br>
 It is often denoted as $`{\displaystyle {\boldsymbol {A}}^{\mathrm {H} }}`$ or $`{\displaystyle {\boldsymbol {A}}^{*}}`$ or 
 $`{\displaystyle {\boldsymbol {A}}'}`$, and very commonly in physics as 
 $`{\displaystyle {\boldsymbol {A}}^{\dagger }}`$. <br>
 
+For example, for matrix $`A`$: <br>
+$`
+A= \begin{pmatrix}
+      1 & -2-i & 5 \\
+      1+i & i & 4-2i \\
+      \end{pmatrix} 
+`$
+
+$`
+A^T= \begin{pmatrix}
+      1 & 1+i       \\
+      -2-i & i      \\
+      5 & 4-2i      \\
+      \end{pmatrix} 
+`$
+
+$`
+A^{\mathrm {H}}= 
+      \begin{pmatrix}
+      1 & 1-i       \\
+      -2+i & -i      \\
+      5 & 4+2i      \\
+      \end{pmatrix} 
+`$
 
 
 ### Reference
