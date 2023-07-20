@@ -142,16 +142,20 @@ $`a`$ is called the real part, $`b`$ is called the imaginary part, <br>
 and $`i`$ is an imaginary number equal to the root of negative 1.
 
 The complex conjugate of complex number z is denoted by $`\bar{z}`$.
-If $`A=2+3i`$, then the conjugate of $`A`$ is $`\bar{A}=2-3i`$.
+If $`z=2+3i`$, then the conjugate of $`z`$ is $`\bar{z}=2-3i`$.
 
 ### Multiplication of Complex Conjugate
 let $`z=a+ib`$, $`\bar{z}=a-ib`$, then $`z*\bar{z}=(a+ib)(a-ib)=a^2+b^2`$.
 
+### Complex Conjugate Root Theorem
+The complex conjugate root theorem states that if $`f(x)`$ is a polynomial with 
+real coefficients and $`a + ib`$ is one of its roots, where $`a`$ and $`b`$ are real numbers, 
+then the complex conjugate $`a - ib`$ is also a root of the polynomial $`f(x)`$.
 
 ### Definition
 The **complex conjugate of a matrix** $`A`$ with complex entries is another matrix <br>
 whose entries are the complex conjugates of the entries of matrix $`A`$. <br>
-The complex conjugate of matrix A is denoted by $`\bar{A}`$. <br> 
+The complex conjugate of matrix $`A`$ is denoted by $`\bar{A}`$. <br> 
 
 For example:
 $`
