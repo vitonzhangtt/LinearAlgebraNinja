@@ -137,6 +137,8 @@ https://www.cuemath.com/algebra/orthogonal-matrix/
 
 ## Singular Matrix
 A **singular matrix** is a square matrix if its **determinant** is 0, $`det(A)=0`$.
+A **singular matrix** is a square matrix if it's non-invertible, i.e. $`A^{-1}`$ is not defined.
+
 
 ### Reference
 [Singular Matrix](https://www.cuemath.com/algebra/singular-matrix/)
