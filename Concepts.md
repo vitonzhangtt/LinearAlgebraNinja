@@ -88,10 +88,24 @@ $`(A^3)^T=A^TA^TA^T=(A^T)^3 \implies (A^n)^T=(A^T)^n `$
 
 ## Cofactor Matrix
 
-## Hermitian Matrix
-
 ### Reference
 [Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
+
+
+## Hermitian Matrix
+A hermitian matrix is a square matrix, which is equal to its [conjugate transpose](#conjugate-transpose-matrix) <br>
+matrix. The non-diagonal elements of a hermitian matrix are all complex numbers. <br> 
+If $`A=A^{\mathrm {H}}`$, then A is hermitian matrix.
+
+The complex numbers in a hermitian matrix are such that the element of the $`ith`$ row <br>
+and $`jth`$ column is the complex conjugate of the element of the $`jth`$ row and $`ith`$ column. <br>
+So for $`i \neq j`$, in the hermitian matrix $`a_{ij}=a_{ji}`$.
+
+### Properties of Hermitian Matrix
+
+
+### Reference
+[Hermitian Matrix](https://www.cuemath.com/algebra/hermitian-matrix/)
 
 ## Skew-Hermitian matrix
 
@@ -219,6 +233,7 @@ A^T= \begin{pmatrix}
       \end{pmatrix} 
 `$
 
+The conjugate transpose of $`A`$ is: 
 $`
 A^{\mathrm {H}}= 
       \begin{pmatrix}
