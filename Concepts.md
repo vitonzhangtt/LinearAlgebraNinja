@@ -136,7 +136,7 @@ So for orthogonal matrix A, $`A{A^T}=I_{n}`$
 https://www.cuemath.com/algebra/orthogonal-matrix/
 
 ## Singular Matrix
-A **singular matrix** is a square matrix if its **determinant** is 0, $`det(A)=0`$.
+A **singular matrix** is a square matrix if its **determinant** is 0, $`det(A)=0`$. <br>
 A **singular matrix** is a square matrix if it's non-invertible, i.e. $`A^{-1}`$ is not defined.
 
 
