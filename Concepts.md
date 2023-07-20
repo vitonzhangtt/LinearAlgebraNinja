@@ -108,7 +108,13 @@ So for $`i \neq j`$, in the hermitian matrix $`a_{ij}=a_{ji}`$.
 [Hermitian Matrix](https://www.cuemath.com/algebra/hermitian-matrix/)
 
 ## Skew-Hermitian matrix
+A square matrix (with real/complex entries) $`A`$ is said to be a **skew Hermitian matrix** <br>
+if and only if $`A^{\mathrm {H}} = -A`$, where $`A^{\mathrm {H}}`$ is the [conjugate transpose](#conjugate-transpose-matrix) of $`A`$.
 
+### Properties
+
+### Reference
+[Skew Hermitian Matrix](https://www.cuemath.com/algebra/skew-hermitian-matrix/)
 
 ## Nilpotent Matrix
 
