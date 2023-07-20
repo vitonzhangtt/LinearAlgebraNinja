@@ -135,21 +135,19 @@ So for orthogonal matrix A, $`A{A^T}=I_{n}`$
 ### Reference
 https://www.cuemath.com/algebra/orthogonal-matrix/
 
-## Symmetric matrix
-A symmetric matrix is a square matrix that is equal to its transpose matrix. $`A=A^T`$
-
-### Properties
-
-
-### Reference
-[Symmetric Matrix](https://www.cuemath.com/algebra/symmetric-matrix/)
-
 ## Singular Matrix
 A **singular matrix** is a square matrix if its **determinant** is 0, $`det(A)=0`$.
 
 ### Reference
 [Singular Matrix](https://www.cuemath.com/algebra/singular-matrix/)
 
+## Symmetric matrix
+A symmetric matrix is a square matrix that is equal to its transpose matrix. $`A=A^T`$
+
+### Properties
+
+### Reference
+[Symmetric Matrix](https://www.cuemath.com/algebra/symmetric-matrix/)
 
 ## Skew-symmetric matrix
 In mathematics, a skew symmetric matrix is defined as the square matrix that is equal <br>
