@@ -107,7 +107,7 @@ A symmetric matrix is a square matrix that is equal to its transpose matrix. $`A
 [Symmetric Matrix](https://www.cuemath.com/algebra/symmetric-matrix/)
 
 ## Singular Matrix
-A **singular matrix** is a square matrix if its **determinant** is 0.
+A **singular matrix** is a square matrix if its **determinant** is 0, $`det(A)=0`$.
 
 ### Reference
 [Singular Matrix](https://www.cuemath.com/algebra/singular-matrix/)
@@ -124,11 +124,60 @@ $`A= \begin{pmatrix}
       0 & 4 & 3 \\
       -4 & 0 & -6 \\
       -3 & 6 & 0 \\
-      \end{pmatrix} `$
+      \end{pmatrix} 
+`$
 
 ### Reference
 [Skew Symmetric Matrix](https://www.cuemath.com/algebra/skew-symmetric-matrix/)
 
+## Conjugate matrix (Complex Conjugate of a Matrix)
+
+### Complex Conjugate
+A complex conjugate of a complex number is another complex number whose  <br>
+real part is the same as the original complex number and the magnitude  <br>
+of the imaginary part is the same with the opposite sign.  <br>
+
+A complex number is of the form $`a + ib`$, where $`a, b`$ are real numbers, <br>
+$`a`$ is called the real part, $`b`$ is called the imaginary part, <br>
+and $`i`$ is an imaginary number equal to the root of negative 1.
+
+The complex conjugate of complex number z is denoted by $`\bar{z}`$.
+If $`A=2+3i`$, then the conjugate of $`A`$ is $`\bar{A}=2-3i`$.
+
+### Multiplication of Complex Conjugate
+let $`z=a+ib`$, $`\bar{z}=a-ib`$, then $`z*\bar{z}=(a+ib)(a-ib)=a^2+b^2`$.
+
+
+### Definition
+The **complex conjugate of a matrix** $`A`$ with complex entries is another matrix <br>
+whose entries are the complex conjugates of the entries of matrix $`A`$. <br>
+The complex conjugate of matrix A is denoted by $`\bar{A}`$. <br> 
+
+For example:
+$`
+A= \begin{pmatrix}
+      3 & 3-i \\
+      1+i & 2 \\
+      \end{pmatrix} 
+`$
+then complex conjugate of A is:
+$`
+\bar{A}= \begin{pmatrix}
+      3 & 3+i \\
+      1-i & 2 \\
+      \end{pmatrix} 
+`$
+
+
+### Reference
+[Complex Conjugate](https://www.cuemath.com/numbers/complex-conjugate/) 
+
+
+## Unitary matrix
+
+
+### Reference
+[Unitary Matrix](https://www.cuemath.com/algebra/unitary-matrix/)
 
 ## Matrix exponential
 
