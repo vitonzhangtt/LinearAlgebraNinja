@@ -219,9 +219,15 @@ A^{\mathrm {H}}=
 A unitary matrix is a square matrix of complex numbers, whose inverse is equal to <br>
 its [conjugate transpose](#conjugate-transpose-matrix). If $`U^{\mathrm {H}}=U^{-1}`$, then U is unitary matrix.
 
-
 ### Reference
 [Unitary Matrix](https://www.cuemath.com/algebra/unitary-matrix/)
+
+## Null matrix (Zero matrix)
+**Null matrix** is a matrix having zero as each of its elements. <br>
+The null matrix is also called a **zero matrix**.
+
+### Reference
+[Null Matrix - Zero Matrix](https://www.cuemath.com/algebra/null-matrix/)
 
 ## Matrix exponential
 
