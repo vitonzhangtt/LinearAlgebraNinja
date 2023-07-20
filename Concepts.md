@@ -84,6 +84,14 @@ $`(A^3)^T=A^TA^TA^T=(A^T)^3 \implies (A^n)^T=(A^T)^n `$
 ### Reference
 [Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
 
+## Skew-Hermitian matrix
+
+
+## Nilpotent Matrix
+
+### Reference
+[Nilpotent Matrix](https://www.cuemath.com/algebra/nilpotent-matrix/)
+
 ## Square Matrix
 A **square matrix** is a matrix with an equal number of rows and columns.
 
