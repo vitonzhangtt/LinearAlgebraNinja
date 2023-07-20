@@ -38,6 +38,15 @@ M_{12} =  \begin{pmatrix}
 ### Reference
 [Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)
 
+## Order of matrix
+The order of matrix gives the dimension of the matrix, and it informs  <br>
+the number of rows and columns present in the matrix.  <br>
+The order of matrix is general represented as $`A_{m \times n}`$, <br>
+where $`m`$ is the number of rows, and $`n`$ is the number of columns in the given matrix. <br>
+
+### Reference
+[Order of matrix](https://www.cuemath.com/algebra/order-of-matrix/)
+
 ## Transpose
 The **transpose** of matrix $`A`$ is $`A^T`$ . The columns of $`A^T`$ are the rows of $`A`$. <br>
 
