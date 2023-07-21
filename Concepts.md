@@ -9,6 +9,22 @@ The nullspace $`N(A)`$ consists of all solutions to $`A\mathbf{x}=0`$. These vec
 ### Reference
 Ref[1]: Section 3.2 
 
+## Cross Product
+The cross product $`× : R^3 × R^3 → R^3`$ is an operation that takes two vectors $`u`$ and $`v`$ <br>
+in space and determines another vector $`u×v`$ in space. (Cross products  <br>
+are sometimes called **outer products**, sometimes called **vector products**.) 
+
+The definition<sup>Ref[2]</sup> is:  $`A \times B = |A||B|sinθ`$ 
+
+### Reference
+1. [Cross products](http://aleph0.clarku.edu/~ma130/crossproducts.pdf)
+2. [Cross Product of Two Vectors](https://www.cuemath.com/geometry/cross-product/)
+
+## Dot Product
+
+### Reference 
+[Dot Product](https://www.cuemath.com/algebra/dot-product/)
+
 ## Minor of a specific element
 **Minor** of matrix for a particular element in the matrix is defined as <br>
 the matrix obtained after deleting the row and column of the matrix  <br>
