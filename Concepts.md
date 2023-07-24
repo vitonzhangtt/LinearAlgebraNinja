@@ -3,9 +3,23 @@
 ## Determinant
 
 ### Definition
+The determinant of an $`n × n`$ matrix $`A`$, denoted $`det(A)`$ or $`|A|`$, is a number given by the following: <br>
+1. if $`A`$ is a 1×1 matrix $`A=[a]`$, then $`det(A)=a`$.
+2. if $`A`$ is a 2×2 matrix <br>
+$`
+A =  \begin{pmatrix}
+      a & b \\
+      c & d \\
+      \end{pmatrix} 
+`$
+then $`det(A) = ad − bc`$.
+3. if $`A`$ is an n×n matrix, where $`n ≥ 2`$, then det(A) is the number found by taking <br>
+the **cofactor expansion** along the first row of A. That is, <br>
+$`det(A) = a_{1,1}C_{1,1} + a_{1,2}C_{1,2} + · · · + a_{1,n}C_{1,n}`$.
 
 ### Reference
-1. 
+1. [Section 3.3 'The Determinant' in Ref[3]](https://github.com/vitonzhangtt/LinearAlgebraNinja/edit/main/Reference.md#reference-list)
+
 
 ## Inverse
 
@@ -104,6 +118,14 @@ C =  \begin{pmatrix}
       C_{31} & C_{32} & C_{33}\\
       \end{pmatrix} 
 `$
+
+### Co-factor Expansion <sup>Ref[3]<sup>
+Let $`A`$ be an $`n × n`$ matrix.
+The **cofactor expansion** of $`A`$ along the **ith** row is the sum
+$`a_{i,1}C_{i,1} + a_{i,2}C_{i,2} + · · · + a_{i,n}C_{i,n}`$.
+
+The **cofactor expansion** of $`A`$ down the **jth** column is the sum
+$`a_{1,j}C_{1,j} + a_{2,j}C_{2,j} + · · · + a_{n,j}C_{n,j}`$.
 
 ### Reference
 1. [Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
