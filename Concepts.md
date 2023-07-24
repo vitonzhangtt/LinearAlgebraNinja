@@ -1,5 +1,14 @@
 # Concepts
 
+## Determinant
+
+### Definition
+
+### Reference
+1. 
+
+## Inverse
+
 ## Column space
 
 ## Nullspace
