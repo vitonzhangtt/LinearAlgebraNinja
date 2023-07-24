@@ -73,7 +73,22 @@ which the element $`a_{ij}`$ belongs. <sup>Ref[2]</sup>
 
 
 ### Cofactor Matrix
+Co-factor matrix is a matrix having the co-factors as the elements of the matrix. <sup>Ref[1]</sup> <br>
+Let matrix C is cofactor matrix of matrix A, $`C_{ij} = (-1)^{(i+j)}M_{ij}`$: <br>
 
+$`
+C =  \begin{pmatrix}
+      (-1)^{1+1}M_{11} & (-1)^{1+2}M_{12} & (-1)^{1+3}M_{13}\\
+      (-1)^{2+1}M_{21} & (-1)^{2+2}M_{22} & (-1)^{2+3}M_{23}\\
+      (-1)^{3+1}M_{31} & (-1)^{3+2}M_{32} & (-1)^{3+3}M_{33}\\
+      \end{pmatrix} 
+      =  
+      \begin{pmatrix}
+      M_{11} & -M_{12} & M_{13}\\
+      -M_{21} & M_{22} & -M_{23}\\
+      M_{31} & -M_{32} & M_{33}\\
+      \end{pmatrix} 
+`$
 
 ### Reference
 1. [Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
