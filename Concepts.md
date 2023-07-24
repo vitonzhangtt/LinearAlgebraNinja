@@ -26,9 +26,8 @@ The definition<sup>Ref[2]</sup> is:  $`A \times B = |A||B|sinθ`$
 [Dot Product](https://www.cuemath.com/algebra/dot-product/)
 
 ## Minor of a specific element
-**Minor** of matrix for a particular element in the matrix is defined as <br>
-the matrix obtained after deleting the row and column of the matrix  <br>
-in which that particular element lies.
+The **minor** of an element in a matrix is defined as the **determinant** <br>
+obtained by deleting the row and column in which that element lies. <sup>Ref[2]</sup>
 
 Here the minor of the element $`a_{ij}`$ is denoted as $`M_{ij}`$. <br>
 For example, the minor for the $`a_{12}`$ entry is $`M_{12}`$ in $`A`$ matrix. <br>
@@ -42,17 +41,49 @@ A =  \begin{pmatrix}
 `$
 
 $`
-M_{12} =  \begin{pmatrix}
+M_{12} =  \begin{vmatrix}
             a_{21} & a_{23}\\
             a_{31} & a_{33}\\
-      \end{pmatrix} 
+      \end{vmatrix} 
 `$
 
 
 ## Minor of matrix
+We can take the minors of the matrix and form a **minor matrix M** of the given matrix A as: <br>
+$`
+M =  \begin{pmatrix}
+      M_{11} & M_{12} & M_{13}\\
+      M_{21} & M_{22} & M_{23}\\
+      M_{31} & M_{32} & M_{33}\\
+      \end{pmatrix} 
+`$
+
+$`M_{ij}`$ is the minor of $`a_{ij}`$ element in matrix A. 
+
+## Cofactor Matrix
+
+### Cofactor of a specific element
+Cofactor of an element $`a_{ij}`$ is related to its minor as 
+$`
+C_{ij} = (-1)^{(i+j)}M_{ij}
+`$
+<br>
+where $`i`$ denotes the **ith** row and $`j`$ denotes the **jth** column to <br>
+which the element $`a_{ij}`$ belongs. <sup>Ref[2]</sup>
+
+
+### Cofactor Matrix
+
 
 ### Reference
-[Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)
+1. [Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
+2. [Minors and cofactors](https://byjus.com/jee/minors-and-cofactors/)
+3. [Section 3.3 'The Determinant' in Ref[3]](https://github.com/vitonzhangtt/LinearAlgebraNinja/edit/main/Reference.md#reference-list)
+
+
+### Reference
+1. ~~[Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)~~
+2. [What Are Minors?](https://byjus.com/jee/minors-and-cofactors/)
 
 ## Order of matrix
 The order of matrix gives the dimension of the matrix, and it informs  <br>
@@ -102,10 +133,7 @@ $`(A^2)^T=A^TA^T=(A^T)^2`$ <br>
 $`(A^3)^T=A^TA^TA^T=(A^T)^3 \implies (A^n)^T=(A^T)^n `$
 
 
-## Cofactor Matrix
 
-### Reference
-[Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
 
 
 ## Hermitian Matrix
