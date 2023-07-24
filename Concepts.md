@@ -143,7 +143,7 @@ $`a_{1,j}C_{1,j} + a_{2,j}C_{2,j} + · · · + a_{n,j}C_{n,j}`$.
 
 
 ## Adjoint of a Matrix <sup>Ref[1]<sup>
-The **adjoint of a matrix** $`B`$ is the transpose of the cofactor matrix of $`B`$.  <br>
+The **adjoint of a matrix** $`B`$ is the transpose of the [cofactor matrix](#co-factor-matrix-1) of $`B`$.  <br>
 The adjoint of a square matrix $`B`$ is denoted by $`adj(B)`$. 
 
 ### Properties 
