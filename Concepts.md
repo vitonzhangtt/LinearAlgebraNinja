@@ -60,9 +60,9 @@ M =  \begin{pmatrix}
 
 $`M_{ij}`$ is the minor of $`a_{ij}`$ element in matrix A. 
 
-## Cofactor Matrix
+## Co-factor Matrix
 
-### Cofactor of a specific element
+### Co-factor of a specific element
 Cofactor of an element $`a_{ij}`$ is related to its minor as 
 $`
 C_{ij} = (-1)^{(i+j)}M_{ij}
@@ -72,7 +72,7 @@ where $`i`$ denotes the **ith** row and $`j`$ denotes the **jth** column to <br>
 which the element $`a_{ij}`$ belongs. <sup>Ref[2]</sup>
 
 
-### Cofactor Matrix
+### Co-factor Matrix
 Co-factor matrix is a matrix having the co-factors as the elements of the matrix. <sup>Ref[1]</sup> <br>
 Let matrix C is cofactor matrix of matrix A, $`C_{ij} = (-1)^{(i+j)}M_{ij}`$: <br>
 
@@ -87,6 +87,12 @@ C =  \begin{pmatrix}
       M_{11} & -M_{12} & M_{13}\\
       -M_{21} & M_{22} & -M_{23}\\
       M_{31} & -M_{32} & M_{33}\\
+      \end{pmatrix} 
+      =
+      \begin{pmatrix}
+      C_{11} & C_{12} & C_{13}\\
+      C_{21} & C_{22} & C_{23}\\
+      C_{31} & C_{32} & C_{33}\\
       \end{pmatrix} 
 `$
 
