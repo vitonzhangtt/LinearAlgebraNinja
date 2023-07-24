@@ -14,7 +14,7 @@ A =  \begin{pmatrix}
 `$
 then $`det(A) = ad − bc`$.
 3. if $`A`$ is an n×n matrix, where $`n ≥ 2`$, then det(A) is the number found by taking <br>
-the **cofactor expansion** along the first row of A. That is, <br>
+the [**cofactor expansion**](#co-factor-expansion-ref3) along the first row of A. That is, <br>
 $`det(A) = a_{1,1}C_{1,1} + a_{1,2}C_{1,2} + · · · + a_{1,n}C_{1,n}`$.
 
 ### Reference
