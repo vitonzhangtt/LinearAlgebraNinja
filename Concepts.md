@@ -23,6 +23,8 @@ $`det(A) = a_{1,1}C_{1,1} + a_{1,2}C_{1,2} + · · · + a_{1,n}C_{1,n}`$.
 
 ## Inverse
 
+### Reference
+
 ## Column space
 
 ## Nullspace
@@ -83,6 +85,11 @@ M =  \begin{pmatrix}
 
 $`M_{ij}`$ is the minor of $`a_{ij}`$ element in matrix A. 
 
+### Reference
+1. ~~[Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)~~
+2. [What Are Minors?](https://byjus.com/jee/minors-and-cofactors/)
+
+
 ## Co-factor Matrix
 
 ### Co-factor of a specific element
@@ -127,15 +134,33 @@ $`a_{i,1}C_{i,1} + a_{i,2}C_{i,2} + · · · + a_{i,n}C_{i,n}`$.
 The **cofactor expansion** of $`A`$ down the **jth** column is the sum <br>
 $`a_{1,j}C_{1,j} + a_{2,j}C_{2,j} + · · · + a_{n,j}C_{n,j}`$.
 
+### Applications of Co-factor Matrix <sup>Ref[1]<sup>
+
 ### Reference
 1. [Cofactor Matrix](https://www.cuemath.com/algebra/cofactor-matrix/)
 2. [Minors and cofactors](https://byjus.com/jee/minors-and-cofactors/)
 3. [Section 3.3 'The Determinant' in Ref[3]](https://github.com/vitonzhangtt/LinearAlgebraNinja/edit/main/Reference.md#reference-list)
 
 
+## Adjoint of a Matrix <sup>Ref[1]<sup>
+The **adjoint of a matrix** $`B`$ is the transpose of the cofactor matrix of $`B`$.  <br>
+The adjoint of a square matrix $`B`$ is denoted by $`adj(B)`$. 
+
+### Properties 
+1. If $`0`$ is a **null matrix** and $`I`$ is an identity matrix then, $`adj(0) = 0`$ and $`adj(I) = I`$ 
+2. $`adj(B^T) = adj(B)^T`$, here $`B^T`$ is a transpose of a matrix $`B`$
+3. The **determinant** of a matrix $`B`$ can be defined as the product of $`B`$ with its adjoint <br>
+yielding a diagonal matrix whose diagonal entries are the determinant $`det(B)`$. <br>
+$`B adj(B) = adj(B) B = det(B) I`$, where $`I`$ is an **identity matrix**.
+4. Suppose C is another square matrix then, $`adj(BC) = adj(C) adj(B)`$
+5. For any **non-negative integer** $`k`$, $`adj(Bk) = adj(B)k`$.
+6. The adjoint of a diagonal matrix is a diagonal matrix again.
+
+### Applications
+
 ### Reference
-1. ~~[Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)~~
-2. [What Are Minors?](https://byjus.com/jee/minors-and-cofactors/)
+1. [Adjoint of a Matrix](https://www.cuemath.com/algebra/adjoint-of-a-matrix/)
+
 
 ## Order of matrix
 The order of matrix gives the dimension of the matrix, and it informs  <br>
@@ -183,9 +208,6 @@ For $`A_{m, n}`$ and $`B_{m, n}`$ matrix, there are the following properties of 
 For property 3, when $`A=B`$ we have the following: <br>
 $`(A^2)^T=A^TA^T=(A^T)^2`$ <br>
 $`(A^3)^T=A^TA^TA^T=(A^T)^3 \implies (A^n)^T=(A^T)^n `$
-
-
-
 
 
 ## Hermitian Matrix
