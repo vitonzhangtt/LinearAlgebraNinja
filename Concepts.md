@@ -121,10 +121,10 @@ C =  \begin{pmatrix}
 
 ### Co-factor Expansion <sup>Ref[3]<sup>
 Let $`A`$ be an $`n × n`$ matrix.
-The **cofactor expansion** of $`A`$ along the **ith** row is the sum
+The **cofactor expansion** of $`A`$ along the **ith** row is the sum <br>
 $`a_{i,1}C_{i,1} + a_{i,2}C_{i,2} + · · · + a_{i,n}C_{i,n}`$.
 
-The **cofactor expansion** of $`A`$ down the **jth** column is the sum
+The **cofactor expansion** of $`A`$ down the **jth** column is the sum <br>
 $`a_{1,j}C_{1,j} + a_{2,j}C_{2,j} + · · · + a_{n,j}C_{n,j}`$.
 
 ### Reference
