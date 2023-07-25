@@ -390,9 +390,13 @@ The null matrix is also called a **zero matrix**.
 ### Reference
 [Null Matrix - Zero Matrix](https://www.cuemath.com/algebra/null-matrix/)
 
+## Homogeneous Representation
+
+### Reference
+1. [Chapter 5 Homogeneous Representations of Points, Lines and Planes](https://www.ipb.uni-bonn.de/book-pcv/pdfs/PCV-A-sample-page.pdf)
+2. [Homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
+
 ## Matrix exponential
-
-
 
 ### Reference
 
