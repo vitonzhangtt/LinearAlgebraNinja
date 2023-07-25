@@ -50,6 +50,11 @@ The definition<sup>Ref[2]</sup> is:  $`A \times B = |A||B|sinθ`$
 ### Reference 
 [Dot Product](https://www.cuemath.com/algebra/dot-product/)
 
+## Triple Cross Product (Vector Triple Product)
+$`A \times {(B \times C)}`$
+
+### Reference
+
 ## Minor of a specific element
 The **minor** of an element in a matrix is defined as the **determinant** <br>
 obtained by deleting the row and column in which that element lies. <sup>Ref[2]</sup>
