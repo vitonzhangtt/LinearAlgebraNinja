@@ -3,5 +3,6 @@
 1. Introduction to Linear Algebra 5th [2016] [Gilbert Strang]
 2. [LaTeX for Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 3. Fundamentals of Matrix Algebra 3rd [2011]
+4. [MATH 304-506: Linear Algebra (AAAA+)](https://www.math.tamu.edu/~yvorobet/MATH304-2011C/MATH304-506.html)
 
 
