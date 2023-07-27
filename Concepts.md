@@ -51,6 +51,7 @@ $`\vec{A} \times \vec{B} = |\vec{A}||\vec{B}|\sin{(\theta)}\hat{n}`$ <br>
 ### Reference
 1. [Cross products](http://aleph0.clarku.edu/~ma130/crossproducts.pdf)
 2. [Cross Product of Two Vectors](https://www.cuemath.com/geometry/cross-product/)
+3. [wiki: Cross_product](https://en.wikipedia.org/wiki/Cross_product)
 
 ## Dot Product
 
