@@ -37,7 +37,7 @@ $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\su
 
 
 
-## TODO [^3] [^4]
+## TODO [^3] [^4] [^12]
 
 [^1]: [Exponentials and Rotations](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
 [^2]: [Exponential Function](https://www.cuemath.com/calculus/exponential-functions/)
@@ -51,4 +51,5 @@ $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\su
 Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
 [^10]: [Transpose properties](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)
 [^11]: [The Matrix Exponential e^{tA}.](https://www.youtube.com/watch?v=WSt9R66U6Po)
+[^12]: [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
 
