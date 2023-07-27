@@ -39,13 +39,13 @@ The cross product $`× : R^3 × R^3 → R^3`$ is an operation that takes two vec
 in space and determines another vector $`u×v`$ in space. (Cross products  <br>
 are sometimes called **outer products**, sometimes called **vector products**.) 
 
-The definition<sup>Ref[2]</sup> of {\color{red}cross product} of two vectors $`\vec{A}`$ and $`\vec{B}`$ is:  <br>
+The definition<sup>Ref[2]</sup> of $`{\text{\color{red}{Cross Product}}}`$ of two vectors $`\vec{A}`$ and $`\vec{B}`$ is:  <br>
 $`\vec{A} \times \vec{B} = |\vec{A}||\vec{B}|\sin{(\theta)}\hat{n}`$ <br>
 
 | Symbols | Meaning |
 | --- | --- |
 | $`\theta`$ | the angle which is formed between $`\vec{A}`$ and $`\vec{B}`$. |
-| $`\hat{n}`$ | the unit vector perpendicular to the plane containing both $`\vec{A}`$ and $`\vec{B}`$. |
+| $`\hat{n}`$ | the **unit vector** perpendicular to the plane containing both $`\vec{A}`$ and $`\vec{B}`$. |
 
 
 ### Reference
