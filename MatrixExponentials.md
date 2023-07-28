@@ -65,6 +65,15 @@ M^2 =
       \end{pmatrix} 
 `$ 
 
+$` 
+M^k =   
+      \begin{pmatrix}
+        {m_{11}}^k & 0 & 0 \\
+        0 & {m_{22}}^k & 0 \\
+        0 & 0 & {m_{33}}^k \\
+      \end{pmatrix} 
+`$ 
+
 The matrix exponential of $`M`$ is $`e^M`$ which is as the following. <br>
 $`
 e^M= 
@@ -75,7 +84,7 @@ e^M=
       \end{pmatrix} 
 `$ 
 
-### Proof
+### Proof <sup>Ref[11]</sup>
 
 
 
