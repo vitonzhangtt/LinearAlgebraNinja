@@ -27,9 +27,10 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 
 ### Definition as limit
 
-
 ## Property A: $`(e^A)^T=e^{A^T}`$
 $`A^T`$ is transpose of matrix $`A`$.
+
+## 
 
 ### Proof
 Accroding to properties of transpose [^10], we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
@@ -39,7 +40,7 @@ $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\su
 
 ## TODO [^3] [^4] [^12]
 
-[^1]: [Exponentials and Rotations](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
+[^1]: [Exponentials and Rotations (AAAA+)](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
 [^2]: [Exponential Function](https://www.cuemath.com/calculus/exponential-functions/)
 [^3]: [The exponential function](https://mathinsight.org/exponential_function)
 [^4]: [The Matrix Exponential](https://nesinkoyleri.org/wp-content/uploads/2021/07/Exponential.pdf)
@@ -52,4 +53,7 @@ Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
 [^10]: [Transpose properties](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)
 [^11]: [The Matrix Exponential e^{tA}.](https://www.youtube.com/watch?v=WSt9R66U6Po)
 [^12]: [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
+
+## Reference
+1. [Exponentials and Rotations (AAAA+)](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
 
