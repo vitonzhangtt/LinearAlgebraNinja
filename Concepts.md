@@ -385,7 +385,7 @@ A^{\mathrm {H}}=
       \end{pmatrix} 
 `$
 
-### Notations: $`A^*`$,  $`A^H`$,  $`A^{\dag}`$,  $`A^+`$,  
+### Notations: $`A^*`$,  $`A^H`$,  $`A^{\textdagger}`$,  $`A^+`$,  
 
 ### Reference
 [Conjugate transpose](https://en.wikipedia.org/wiki/Conjugate_transpose)
