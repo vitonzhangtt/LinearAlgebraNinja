@@ -397,6 +397,8 @@ Conjugate transpose can be denoted as $`A^*`$,  $`A^H`$,  $`A^{\textdagger}`$ an
 
 In some contexts, $`{A}^{*}`$ denotes the matrix with only complex conjugated entries and no transposition.
 
+### Properties of the conjugate transpose
+
 ### Reference
 [Conjugate transpose](https://en.wikipedia.org/wiki/Conjugate_transpose)
 
