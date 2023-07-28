@@ -185,6 +185,7 @@ A matrix $`A = [a_{ij}]`$ is said to be **diagonal** if
 $`A`$ is a square matrix and $`a_{ij}=0 \text{ when }i \neq j.`$
 
 ### Examples
+The following matrics are diagonal.
 
 $`
 A = \begin{pmatrix}
@@ -201,7 +202,25 @@ R = \begin{pmatrix}
     \end{pmatrix} 
 `$
 
-### 
+$`
+B = \begin{pmatrix}
+      4 & 0 & 0 \\
+      0 & 0 & 0 \\
+      0 & 0 & 7 \\
+    \end{pmatrix} 
+`$
+
+Note: The diagonal elements of a diagonal matrix can be either zeros or non-zeros.
+
+### Properties of a Diagonal Matrix
+
+#### Property A: **Identity matrix**, **null matrix**, and **scalar matrix** are diagonal matrics.
+   
+#### Property B: The sum of two diagonal matrics (of the same order) is diagonal.
+If $`n x n`$ matrics $`A`$ and $`B`$ are both diagonal matrics, then $`A+B`$ is also diagonal matrics.
+
+#### Property C: The product of two diagonal matrices (of the same order) is a diagonal matrix.
+$`A=[a_{ij}]`$ 
 
 ### Reference
 1. [Diagonal Matrix](https://www.cuemath.com/algebra/diagonal-matrix/)
