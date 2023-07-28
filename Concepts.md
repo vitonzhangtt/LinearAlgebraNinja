@@ -179,6 +179,33 @@ $`B adj(B) = adj(B) B = det(B) I`$, where $`I`$ is an **identity matrix**.
 ### Reference
 1. [Adjoint of a Matrix](https://www.cuemath.com/algebra/adjoint-of-a-matrix/)
 
+## Diagonal Matrix
+
+A matrix $`A = [a_{ij}]`$ is said to be **diagonal** if
+$`A`$ is a square matrix and $`a_{ij}=0 \text{ when }i \neq j.`$
+
+### Examples
+
+$`
+A = \begin{pmatrix}
+      1 & 0 & 0 \\
+      0 & 5 & 0 \\
+      0 & 0 & 6 \\
+    \end{pmatrix} 
+`$
+
+$`
+R = \begin{pmatrix}
+      2 & 0 \\
+      0 & 5 \\
+    \end{pmatrix} 
+`$
+
+### 
+
+### Reference
+1. [Diagonal Matrix](https://www.cuemath.com/algebra/diagonal-matrix/)
+
 
 ## Order of matrix
 The order of matrix gives the dimension of the matrix, and it informs  <br>
