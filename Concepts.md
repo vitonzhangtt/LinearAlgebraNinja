@@ -385,7 +385,17 @@ A^{\mathrm {H}}=
       \end{pmatrix} 
 `$
 
-### Notations: $`A^*`$,  $`A^H`$,  $`A^{\textdagger}`$,  $`A^+`$,  
+### Notations: $`A^*`$,  $`A^H`$,  $`A^{\textdagger}`$,  $`A^+`$
+Conjugate transpose can be denoted as $`A^*`$,  $`A^H`$,  $`A^{\textdagger}`$ and $`A^+`$.
+
+| Notation | Description |
+| --- | --- |
+| $`A^*`$ | commonly used in linear algebra |
+| $`A^H`$ |commonly used in linear algebra |
+| $`A^{\dagger}`$ | (sometimes pronounced as A dagger), commonly used in quantum mechanics |
+| $`A^+`$ | although this symbol is more commonly used for the Moore–Penrose pseudoinverse |
+
+In some contexts, $`{A}^{*}`$ denotes the matrix with only complex conjugated entries and no transposition.
 
 ### Reference
 [Conjugate transpose](https://en.wikipedia.org/wiki/Conjugate_transpose)
