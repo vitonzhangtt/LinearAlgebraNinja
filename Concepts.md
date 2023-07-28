@@ -25,6 +25,11 @@ $`det(A) = a_{1,1}C_{1,1} + a_{1,2}C_{1,2} + · · · + a_{1,n}C_{1,n}`$.
 
 ### Reference
 
+## Moore–Penrose inverse
+
+### Reference
+1. [Moore–Penrose inverse](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse)
+
 ## Column space
 
 ## Nullspace
@@ -347,7 +352,7 @@ $`
 
 
 ## Conjugate transpose (matrix)
-In mathematics, the **conjugate transpose**, also known as the **Hermitian transpose**, of an <br>
+In mathematics, the **Conjugate transpose**, also known as the **Hermitian transpose**, of an <br>
 $`m \times n`$ complex matrix $`{\boldsymbol {A}}`$ is an $`n\times m`$ matrix obtained <br>
 by transposing $`{\boldsymbol {A}}`$ and applying complex conjugate on each entry. <br>
 It is often denoted as $`{\displaystyle {\boldsymbol {A}}^{\mathrm {H} }}`$ or $`{\displaystyle {\boldsymbol {A}}^{*}}`$ or 
@@ -380,6 +385,7 @@ A^{\mathrm {H}}=
       \end{pmatrix} 
 `$
 
+### Notations: $`A^*`$,  $`A^H`$,  $`A^{\dag}`$,  $`A^+`$,  
 
 ### Reference
 [Conjugate transpose](https://en.wikipedia.org/wiki/Conjugate_transpose)
