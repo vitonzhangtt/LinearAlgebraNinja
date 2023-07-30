@@ -27,6 +27,9 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 
 ### Definition as limit
 
+## Theorem 1 <sup>Ref[1]</sup>
+If $`AB = BA`$, then $`e^{A}e^{B} = e^{A+B}`$.
+
 ## Property A: $`(e^A)^T=e^{A^T}`$
 $`A^T`$ is transpose of matrix $`A`$.
 
