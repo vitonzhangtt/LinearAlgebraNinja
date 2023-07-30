@@ -154,29 +154,14 @@ Let $`\vec{v} = [x, y, z]^T`$ be a unit vector and let $`A = \begin{bmatrix} 0 &
 Then rotation about the line through the origin in the direction of $`\vec{v}`$ by $`θ`$ radians <br>
 is given by the matrix $`e^{θA}`$.
 
+#### Example
+
+If we want to rotate about the axis determined by $`\vec{v} = [3, 2, -6]^T`$ by 27 degrees. <br>
+The angle is $`θ = \frac{2\pi}{360}27=\frac{3\pi}{20}`$ radians.
 
 
 
 
-
-
-
-
-## TODO [^3] [^4] [^12]
-
-[^1]: [Exponentials and Rotations (AAAA+)](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
-[^2]: [Exponential Function](https://www.cuemath.com/calculus/exponential-functions/)
-[^3]: [The exponential function](https://mathinsight.org/exponential_function)
-[^4]: [The Matrix Exponential](https://nesinkoyleri.org/wp-content/uploads/2021/07/Exponential.pdf)
-[^5]: [wiki: Matrix_exponential](https://en.wikipedia.org/wiki/Matrix_exponential)
-[^6]: [Power Series Expansion for Exponential Function](https://proofwiki.org/wiki/Power_Series_Expansion_for_Exponential_Function)
-[^7]: [7.8 Matrix exponentials](https://web.uvic.ca/~tbazett/diffyqs/sec_matexp.html)
-[^8]: [What Is the Matrix Exponential?](https://nhigham.com/2020/05/28/what-is-the-matrix-exponential/)
-[^9]: [The Matrix exponential, Dynamic
-Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
-[^10]: [Transpose properties](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)
-[^11]: [The Matrix Exponential e^{tA}.](https://www.youtube.com/watch?v=WSt9R66U6Po)
-[^12]: [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
 
 ## Reference
 1. [Exponentials and Rotations (AAAA+)](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
@@ -190,4 +175,6 @@ Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
 9. [The Matrix exponential, Dynamic Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
 10. [Transpose properties](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)
 11. [The Matrix Exponential of a Diagonal Matrix](https://yutsumura.com/the-matrix-exponential-of-a-diagonal-matrix/)
+12. [The Matrix Exponential e^{tA}.](https://www.youtube.com/watch?v=WSt9R66U6Po)
+13. [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
 
