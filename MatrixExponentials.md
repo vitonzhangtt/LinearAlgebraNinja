@@ -1,4 +1,4 @@
-# Matrix Exponentials
+# Matrix Exponentials ($`e^A`$)
 
 ## Exponential Function <sup>Ref[^2] Ref[3]</sup>
 The exponential function is a type of mathematical function which are helpful <br>
@@ -29,6 +29,17 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 
 ## Theorem 1 <sup>Ref[1]</sup>
 If $`AB = BA`$, then $`e^{A}e^{B} = e^{A+B}`$.
+
+### Corollary 1 
+Let $`A`$ be an $`n × n`$ matrix.
+1. For any **real numbers** $`t`$ and $`s`$, we have $`e^{tA}e^{sA} = e^{(t+s)A}`$.
+2. The matrix $`e^{A}`$ is **invertible**, and $`(e^A)^{−1} = e^{−A}`$.
+
+#### Proof
+For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), so it hold. 
+
+For second, $`A` and $`-A` are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$
+
 
 ## Property A: $`(e^A)^T=e^{A^T}`$
 $`A^T`$ is transpose of matrix $`A`$.
