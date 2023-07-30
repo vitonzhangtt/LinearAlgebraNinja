@@ -1,6 +1,6 @@
 # Matrix Exponentials
 
-## Exponential Function [^2] [^3]
+## Exponential Function <sup>Ref[^2] Ref[3]</sup>
 The exponential function is a type of mathematical function which are helpful <br>
 in finding the growth or decay of population, money, price, etc that are <br> 
 growing or decay exponentially. 
@@ -11,14 +11,14 @@ $`f(x)=cb^x`$ <br>
 When $`c=1, b=e`$, we get the following: <br>
 $`f(x)=e^x`$
 
-### Power function [^2]
+### Power function <sup>Ref[2]</sup>
 Power function is a function which has a variable as the base and a constant as the exponent, 
 $`f(x)=x^a`$.
 
-### Power Series Expansion [^6]
+### Power Series Expansion <sup>Ref[6]</sup>
 $`e^x=\displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}`$
 
-## Matrix Exponential [^8]
+## Matrix Exponential <sup>Ref[8]</sup>
 The exponential of a square matrix A is defined by the power series: <br>
 $`e^A=I+A+\frac{A^2}{2!}+\frac{A^3}{3!}+\dots`$ <br>
 
@@ -31,7 +31,7 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 $`A^T`$ is transpose of matrix $`A`$.
 
 ### Proof
-Accroding to properties of transpose [^10], we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
+Accroding to properties of transpose <sup>Ref[10]</sup>, we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
 $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^n)}^T}{n!}=(\displaystyle{\sum_{n=0}^{\infty} \frac{(A^n)}{n!}})^T=(e^A)^T`$
 
 ## Property B: The Matrix Exponential of a [Diagonal Matrix](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#diagonal-matrix) 
