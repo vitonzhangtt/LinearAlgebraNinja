@@ -221,7 +221,7 @@ If $`n x n`$ matrics $`A`$ and $`B`$ are both diagonal matrics, then $`A+B`$ is 
 
 #### Property C: The product of two diagonal matrices (of the same order) is a diagonal matrix.
 $`A=[a_{ij}] \text{ and } B=[b_{ij}]`$ are diagonal matrics, matrix $`M`$ is $`M=A \times B`$. The entries <br>
-of M matrix equals to $`M_{ij} = A_{ij} \times B_{ij}`$. <br>
+of M matrix equals to $`m_{ij} = a_{ij} \times b_{ij}`$. <br>
 For example,
 let $`
 A  = \begin{pmatrix}
