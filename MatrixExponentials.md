@@ -40,7 +40,7 @@ For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), 
 
 For second, $`A`$ and $`-A`$ are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$, so $`(e^A)^{−1} = e^{−A}`$ hold.
 
-## Theorem 2: $`(e^A)^T=e^{A^T} \text{ for any } n \times n \text{ matrix } A`$
+## Theorem 2<sup>Ref[1]</sup>: $`(e^A)^T=e^{A^T} \text{ for any } n \times n \text{ matrix } A`$
 $`A^T`$ is transpose of matrix $`A`$.
 
 ### Proof
@@ -98,6 +98,13 @@ e^M=
 `$ 
 
 ### Proof <sup>Ref[11]</sup>
+
+## Theorem 3 <sup>Ref[1]</sup>
+Let $`A`$ be an $`n \times n`$ matrix. Then
+1. If $`λ`$ is an eigenvalue for $`A`$, then $`e^λ`$ is an eigenvalue for $`e^A`$.
+2. More precisely, if $`\vec{v}`$ is an eigenvector for $`A`$ with eigenvalue $`λ`$, then $`\vec{v}`$ is an <br>
+eigenvector for $`e^A`$ with eigenvalue $`e^λ`$.
+
 
 
 
