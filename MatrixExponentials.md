@@ -38,7 +38,7 @@ Let $`A`$ be an $`n × n`$ matrix.
 #### Proof
 For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), so it hold. 
 
-For second, $`A` and $`-A` are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$
+For second, $`A`$ and $`-A`$ are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$.
 
 
 ## Property A: $`(e^A)^T=e^{A^T}`$
