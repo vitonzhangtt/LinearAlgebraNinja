@@ -114,6 +114,36 @@ An $`{n × n}`$ matrix is called **[skew-symmetric](https://github.com/vitonzhan
 If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then $`e^A`$ is orthogonal. Additionally, $`det(e^A) = 1`$, <br>
 so $`e^A`$ is a **rotation matrix**.
 
+#### Exmaple (when $`n=2`$)
+For a $`2×2`$ matrix 
+$`
+A =  \begin{pmatrix}
+      a & b \\
+      c & d \\
+      \end{pmatrix}
+`$,
+we see $`A`$ is **skew-symmetric** if and only if $`A^T = −A`$: <br>
+$`
+A^T = \begin{pmatrix}
+      a & c \\
+      b & d \\
+\end{pmatrix} = \begin{pmatrix} 
+-a & -b \\
+-c & -d \\
+\end{pmatrix} = -A
+`$
+
+Hence a 2 × 2 skew-symmetric matrix has the form
+$`\begin{pmatrix}
+0 & −b \\
+b & 0 \\
+\end{pmatrix}
+`$. This is precisely <br>
+the family of matrices we took the exponential of when we computed
+
+$`e^A=exp(\begin{bmatrix} 0 & −t \\ t & 0 \\ \end{bmatrix}) = \begin{bmatrix} \cos{t} & −\sin{t} \\ \sin{t} & \cos{t} \\ \end{bmatrix}`$
+
+
 ### Theorem 2
 If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then e^{tA} is a rotation matrix <br>
 for each **real number** $`t`$.
