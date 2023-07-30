@@ -1,6 +1,6 @@
 # Matrix Exponentials ($`e^A`$)
 
-## Exponential Function <sup>Ref[^2] Ref[3]</sup>
+## Exponential Function <sup>Ref[2] Ref[3]</sup>
 The exponential function is a type of mathematical function which are helpful <br>
 in finding the growth or decay of population, money, price, etc that are <br> 
 growing or decay exponentially. 
@@ -113,6 +113,8 @@ An $`{n × n}`$ matrix is called **skew-symmetric** if $`A^T = −A`$.
 ### Theorem 1
 If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then $`e^A`$ is orthogonal. Additionally, $`det(e^A) = 1`$, <br>
 so $`e^A`$ is a **rotation matrix**.
+
+
 
 
 
