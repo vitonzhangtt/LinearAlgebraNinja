@@ -154,7 +154,7 @@ Let $`\vec{v} = [x, y, z]^T`$ be a unit vector and let $`A = \begin{bmatrix} 0 &
 Then rotation about the line through the origin in the direction of $`\vec{v}`$ by $`θ`$ radians <br>
 is given by the matrix $`e^{θA}`$.
 
-#### Example
+#### Example: calculate the rotation matrics
 
 If we want to rotate about the axis determined by $`\vec{v} = [3, 2, -6]^T`$ by 27 degrees. <br>
 The angle is $`θ = \frac{2\pi}{360} \times 27=\frac{3\pi}{20}`$ radians.
@@ -163,6 +163,7 @@ The angle is $`θ = \frac{2\pi}{360} \times 27=\frac{3\pi}{20}`$ radians.
 
 $`\vec{u}=\frac{1}{\lVert \vec{v} \rVert} \times \vec{v}=\frac{1}{\sqrt{9+4+36}} \times [3, 2, -6]^T = [\frac{3}{7}, \frac{2}{7}, \frac{-6}{7}]^T`$
 
+**Rotation matrix**: <br>
 
 
 
