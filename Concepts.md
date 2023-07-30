@@ -220,7 +220,10 @@ Note: The diagonal elements of a diagonal matrix can be either zeros or non-zero
 If $`n x n`$ matrics $`A`$ and $`B`$ are both diagonal matrics, then $`A+B`$ is also diagonal matrics.
 
 #### Property C: The product of two diagonal matrices (of the same order) is a diagonal matrix.
-$`A=[a_{ij}]`$ 
+$`A=[a_{ij}] \text{ and } B=[b_{ij}]`$ are diagonal matrics, matrix $`M`$ is $`M=A \times B`$. The entries <br>
+of M matrix equals to $`M_{ij} = A_{ij} \times B_{ij}`$.
+
+
 
 ### Reference
 1. [Diagonal Matrix](https://www.cuemath.com/algebra/diagonal-matrix/)
