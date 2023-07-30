@@ -27,27 +27,27 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 
 ### Definition as limit
 
-## Theorem 1 <sup>Ref[1]</sup>
+### Theorem 1 <sup>Ref[1]</sup>
 If $`AB = BA`$, then $`e^{A}e^{B} = e^{A+B}`$.
 
-### Corollary 1 
+#### Corollary 1 
 Let $`A`$ be an $`n × n`$ matrix.
 1. For any **real numbers** $`t`$ and $`s`$, we have $`e^{tA}e^{sA} = e^{(t+s)A}`$.
 2. The matrix $`e^{A}`$ is **invertible**, and $`(e^A)^{−1} = e^{−A}`$.
 
-#### Proof
+##### Proof
 For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), so $`e^{tA}e^{sA} = e^{(t+s)A}`$ hold. 
 
 For second, $`A`$ and $`-A`$ are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$, so $`(e^A)^{−1} = e^{−A}`$ hold.
 
-## Theorem 2<sup>Ref[1]</sup>: $`(e^A)^T=e^{A^T} \text{ for any } n \times n \text{ matrix } A`$
+### Theorem 2<sup>Ref[1]</sup>: $`(e^A)^T=e^{A^T} \text{ for any } n \times n \text{ matrix } A`$
 $`A^T`$ is transpose of matrix $`A`$.
 
-### Proof
+#### Proof
 Accroding to properties of transpose <sup>Ref[10]</sup>, we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
 $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^n)}^T}{n!}=(\displaystyle{\sum_{n=0}^{\infty} \frac{(A^n)}{n!}})^T=(e^A)^T`$
 
-## Property B: The Matrix Exponential of a [Diagonal Matrix](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#diagonal-matrix) 
+### Property B: The Matrix Exponential of a [Diagonal Matrix](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#diagonal-matrix) 
 
 Let $`M`$ is a **diagnoal matrix** with $`n = 3`$ as the following, <br>
 $`
@@ -97,14 +97,22 @@ e^M=
       \end{pmatrix} 
 `$ 
 
-### Proof <sup>Ref[11]</sup>
+#### Proof <sup>Ref[11]</sup>
 
-## Theorem 3 <sup>Ref[1]</sup>
+### Theorem 3 <sup>Ref[1]</sup>
 Let $`A`$ be an $`n \times n`$ matrix. Then
 1. If $`λ`$ is an eigenvalue for $`A`$, then $`e^λ`$ is an eigenvalue for $`e^A`$.
 2. More precisely, if $`\vec{v}`$ is an eigenvector for $`A`$ with eigenvalue $`λ`$, then $`\vec{v}`$ is an <br>
 eigenvector for $`e^A`$ with eigenvalue $`e^λ`$.
 
+## Rotations as matrix exponentials <sup>Ref[1]</sup>
+
+Using matrix exponentials represent rotation. <br>
+An $`{n × n}`$ matrix is called **skew-symmetric** if $`A^T = −A`$.
+
+### Theorem 1
+If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then $`e^A`$ is orthogonal. Additionally, $`det(e^A) = 1`$, <br>
+so $`e^A`$ is a **rotation matrix**.
 
 
 
