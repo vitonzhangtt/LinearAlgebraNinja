@@ -36,9 +36,9 @@ Let $`A`$ be an $`n × n`$ matrix.
 2. The matrix $`e^{A}`$ is **invertible**, and $`(e^A)^{−1} = e^{−A}`$.
 
 #### Proof
-For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), so it hold. 
+For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), so $`e^{tA}e^{sA} = e^{(t+s)A}`$ hold. 
 
-For second, $`A`$ and $`-A`$ are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$.
+For second, $`A`$ and $`-A`$ are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$, so $`(e^A)^{−1} = e^{−A}`$ hold.
 
 
 ## Property A: $`(e^A)^T=e^{A^T}`$
