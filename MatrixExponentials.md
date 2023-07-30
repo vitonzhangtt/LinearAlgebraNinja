@@ -40,8 +40,7 @@ For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), 
 
 For second, $`A`$ and $`-A`$ are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$, so $`(e^A)^{−1} = e^{−A}`$ hold.
 
-
-## Property A: $`(e^A)^T=e^{A^T}`$
+## Theorem 2: $`(e^A)^T=e^{A^T} \text{ for any } n \times n \text{ matrix } A`$
 $`A^T`$ is transpose of matrix $`A`$.
 
 ### Proof
