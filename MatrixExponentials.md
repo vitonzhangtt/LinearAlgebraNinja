@@ -108,11 +108,15 @@ eigenvector for $`e^A`$ with eigenvalue $`e^λ`$.
 ## Rotations as matrix exponentials <sup>Ref[1]</sup>
 
 Using matrix exponentials represent rotation. <br>
-An $`{n × n}`$ matrix is called **skew-symmetric** if $`A^T = −A`$.
+An $`{n × n}`$ matrix is called **[skew-symmetric](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#skew-symmetric-matrix)** if $`A^T = −A`$.
 
 ### Theorem 1
 If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then $`e^A`$ is orthogonal. Additionally, $`det(e^A) = 1`$, <br>
 so $`e^A`$ is a **rotation matrix**.
+
+### Theorem 2
+If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then e^{tA} is a rotation matrix <br>
+for each **real number** $`t`$.
 
 
 
