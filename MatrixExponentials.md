@@ -144,9 +144,17 @@ the family of matrices we took the exponential of when we computed
 $`e^A=exp(\begin{bmatrix} 0 & −t \\ t & 0 \\ \end{bmatrix}) = \begin{bmatrix} \cos{t} & −\sin{t} \\ \sin{t} & \cos{t} \\ \end{bmatrix}`$
 
 
-### Theorem 2
-If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then e^{tA} is a rotation matrix <br>
+### Theorem 2: Skew matrics and Rotation Matrics
+If $`A`$ is a **skew-symmetric** $`n \times n`$ matrix, then $`e^{tA}`$ is a rotation matrix <br>
 for each **real number** $`t`$.
+
+
+### Theorem 3: Rotation axis and angle
+Let $`\vec{v} = [x, y, z]^T`$ be a unit vector and let $`A = \begin{bmatrix} 0 & −z & y \\ z & 0 & -x \\ -y & x & 0 \\ \end{bmatrix}`$. <br>
+Then rotation about the line through the origin in the direction of $`\vec{v}`$ by $`θ`$ radians <br>
+is given by the matrix $`e^{θA}`$.
+
+
 
 
 
