@@ -373,6 +373,14 @@ $`A= \begin{pmatrix}
       \end{pmatrix} 
 `$
 
+### Property A: If $`A`$ and $`B`$ is Skew-symmetric, then $`(A+B)`$ is Skew-symmetric.
+
+### Property B: If $`A`$ is Skew-symmetric, then $`tr(A) = 0`$. 
+
+### Property C: The real eigenvalue of a real skew symmetric matrix $`A`$, $`λ`$ equal zero.
+
+### Property D: If $`k`$ is scalar and $`B`$ is skew symmetric matrix, then $`(kB)^T = -kB`$.
+
 ### Reference
 [Skew Symmetric Matrix](https://www.cuemath.com/algebra/skew-symmetric-matrix/)
 
