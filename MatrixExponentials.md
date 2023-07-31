@@ -183,6 +183,8 @@ e^{θA} = exp(\frac{3\pi}{20} \times
       \end{bmatrix})
 `$
 
+Note: **expm** command in MATLAB.
+
 
 ## Reference
 1. [Exponentials and Rotations (AAAA+)](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
