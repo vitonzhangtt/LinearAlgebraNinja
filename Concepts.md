@@ -247,6 +247,20 @@ M = A \times B = \begin{pmatrix}
 
 #### Property E: Diagonal matrices are symmetric matrices(i.e. $`A=A^T`$). 
 
+### Theorem
+
+#### Theorem 1
+For any square matrix $`A`$ with real number elements, $`A + A^T`$ is a **symmetric matrix**, and $`A - A^T`$ <br>
+is a **skew-symmetric** matrix.
+
+#### Theorem 2
+Any square matrix $`A`$ can be expressed as the sum of a **symmetric matrix**, $`S`$ and <br>
+a **skew symmetric matrix**, $`V`$, such that,
+$`A = (1/2) × (A + A^T) + (1/2 ) × (A - A^T)`$. Here, $`A^T`$ is the transpose of the square matrix $`A`$.
+
+1. If $`A + A^T`$ is a symmetric matrix, then $`(1/2) × (A + A^T)`$ is also a symmetric matrix.
+2. If $`A - A^T`$ is a skew symmetric matrix, then $`(1/2 ) × (A - A^T)`$ is also a skew symmetric matrix.
+
 ### Reference
 1. [Diagonal Matrix](https://www.cuemath.com/algebra/diagonal-matrix/)
 
