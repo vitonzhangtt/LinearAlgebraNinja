@@ -493,9 +493,15 @@ In some contexts, $`{A}^{*}`$ denotes the matrix with only complex conjugated en
 
 ### Properties of the conjugate transpose
 
-#### Property A: $`{\displaystyle ({\boldsymbol {A}}+{\boldsymbol {B}})^{\mathrm {H} }={\boldsymbol {A}}^{\mathrm {H} }+{\boldsymbol {B}}^{\mathrm {H} }}`$
+#### Property A: $`{\displaystyle ({\boldsymbol {A}}+{\boldsymbol {B}})^{\mathrm {H} }={\boldsymbol {A}}^{\mathrm {H} }+{\boldsymbol {B}}^{\mathrm {H} }}`$ If $`A`$ and $`B`$ have the same order.
 
-#### Property B:
+#### Property B: $`{\displaystyle (z{\boldsymbol {A}})^{\mathrm {H} }={\overline {z}}{\boldsymbol {A}}^{\mathrm {H} }}`$ for any complex number z and any $`m \times n`$ matrix $`{\boldsymbol {A}}`$.
+
+#### Property C:
+
+#### Property D:
+
+#### Property E:
 
 ### Reference
 [Conjugate transpose](https://en.wikipedia.org/wiki/Conjugate_transpose)
