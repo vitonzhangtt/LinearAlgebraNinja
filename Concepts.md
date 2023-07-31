@@ -243,6 +243,10 @@ M = A \times B = \begin{pmatrix}
       \end{pmatrix}
 `$
 
+#### Property D: Diagonal matrices are **commutative** under both addition and multiplication.
+
+#### Property E: Diagonal matrices are symmetric matrices(i.e. $`A=A^T`$). 
+
 ### Reference
 1. [Diagonal Matrix](https://www.cuemath.com/algebra/diagonal-matrix/)
 
