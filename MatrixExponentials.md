@@ -18,6 +18,10 @@ $`f(x)=x^a`$.
 ### Power Series Expansion <sup>Ref[6]</sup>
 $`e^x=\displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}`$
 
+## Why we need matrix exponential?
+
+
+
 ## Matrix Exponential <sup>Ref[8]</sup>
 The exponential of a square matrix A is defined by the power series: <br>
 $`e^A=I+A+\frac{A^2}{2!}+\frac{A^3}{3!}+\dots`$ <br>
@@ -163,8 +167,21 @@ The angle is $`θ = \frac{2\pi}{360} \times 27=\frac{3\pi}{20}`$ radians.
 
 $`\vec{u}=\frac{1}{\lVert \vec{v} \rVert} \times \vec{v}=\frac{1}{\sqrt{9+4+36}} \times [3, 2, -6]^T = [\frac{3}{7}, \frac{2}{7}, \frac{-6}{7}]^T`$
 
-**Rotation matrix**: <br>
+So, $`x=\frac{3}{7}, y=\frac{2}{7}, z=\frac{-6}{7}`$ and $`A=\begin{bmatrix} 
+            0 & \frac{6}{7} & \frac{2}{7} \\ 
+            \frac{-6}{7} & 0 & \frac{-3}{7} \\ 
+            \frac{-2}{7} & \frac{3}{7} & 0 \\ 
+      \end{bmatrix}`$
 
+**Rotation matrix**: <br>
+$`
+e^{θA} = exp(\frac{3\pi}{20} \times 
+      \begin{bmatrix} 
+            0 & \frac{6}{7} & \frac{2}{7} \\ 
+            \frac{-6}{7} & 0 & \frac{-3}{7} \\ 
+            \frac{-2}{7} & \frac{3}{7} & 0 \\ 
+      \end{bmatrix})
+`$
 
 
 ## Reference
