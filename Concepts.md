@@ -256,7 +256,8 @@ is a **skew-symmetric** matrix.
 #### Theorem 2
 Any square matrix $`A`$ can be expressed as the sum of a **symmetric matrix**, $`S`$ and <br>
 a **skew symmetric matrix**, $`V`$, such that,
-$`A = (1/2) × (A + A^T) + (1/2 ) × (A - A^T)`$. Here, $`A^T`$ is the transpose of the square matrix $`A`$.
+$`A = (1/2) × (A + A^T) + (1/2 ) × (A - A^T)`$. <br>
+Here, $`A^T`$ is the transpose of the square matrix $`A`$.
 
 1. If $`A + A^T`$ is a symmetric matrix, then $`(1/2) × (A + A^T)`$ is also a symmetric matrix.
 2. If $`A - A^T`$ is a skew symmetric matrix, then $`(1/2 ) × (A - A^T)`$ is also a skew symmetric matrix.
