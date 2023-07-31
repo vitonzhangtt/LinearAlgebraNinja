@@ -198,6 +198,6 @@ Note: **expm** command in MATLAB.
 9. [The Matrix exponential, Dynamic Systems and Control](https://www2.imm.dtu.dk/pubdb/edoc/imm3059.pdf)
 10. [Transpose properties](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose)
 11. [The Matrix Exponential of a Diagonal Matrix](https://yutsumura.com/the-matrix-exponential-of-a-diagonal-matrix/)
-12. [The Matrix Exponential e^{tA}.](https://www.youtube.com/watch?v=WSt9R66U6Po)
+12. [The Matrix Exponential $`e^{tA}`$.](https://www.youtube.com/watch?v=WSt9R66U6Po)
 13. [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
 
