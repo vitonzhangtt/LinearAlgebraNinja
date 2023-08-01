@@ -21,7 +21,6 @@ $`e^x=\displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}`$
 ## Why we need matrix exponential?
 
 
-
 ## Matrix Exponential <sup>Ref[8]</sup>
 The exponential of a square matrix A is defined by the power series: <br>
 $`e^A=I+A+\frac{A^2}{2!}+\frac{A^3}{3!}+\dots`$ <br>
@@ -31,7 +30,9 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 
 ### Definition as limit
 
-### 
+### The determinant of the matrix exponential <sup>Ref[5]</sup>
+By **Jacobi's formula**, for any complex square matrix the following trace identity holds: <br>
+$`det(e^A)=e^{tr(A)}`$
 
 ### Theorem 1 <sup>Ref[1]</sup>
 If $`AB = BA`$, then $`e^{A}e^{B} = e^{A+B}`$.
