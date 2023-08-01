@@ -188,6 +188,7 @@ e^{θA} = exp(\frac{3\pi}{20} \times
 
 Note: **expm** command in MATLAB.
 
+## Eigenvalue and eigenvector <sup>Ref[14]</sup>
 
 ## Reference
 1. [Exponentials and Rotations (AAAA+)](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
@@ -203,4 +204,5 @@ Note: **expm** command in MATLAB.
 11. [The Matrix Exponential of a Diagonal Matrix](https://yutsumura.com/the-matrix-exponential-of-a-diagonal-matrix/)
 12. [The Matrix Exponential $`e^{tA}`$.](https://www.youtube.com/watch?v=WSt9R66U6Po)
 13. [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
+14. [Rotations, SO(3) and so(3)](https://www.youtube.com/watch?v=uILYfubYxd0)
 
