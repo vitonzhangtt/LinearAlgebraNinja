@@ -1,4 +1,4 @@
-# Cross Product
+# Cross Product <sup>TODO</sup>
 
 ## Definition
 The cross product of two vectors $`a`$ and $`b`$ is defined only in <br> 
