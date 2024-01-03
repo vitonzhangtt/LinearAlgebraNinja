@@ -1,5 +1,12 @@
 # Concepts
 
+## Rank
+The rank of a matrix is equal to the number of linearly independent rows (or columns) in it. <sup>[1]</sup>
+The rank of a matrix is the **order** of the highest ordered non-zero **minor**. <sup>[1]</sup>
+
+### Reference
+1. [Rank of a Matrix](https://www.cuemath.com/algebra/rank-of-a-matrix/) [To Read]
+
 ## Determinant
 
 ### Definition
