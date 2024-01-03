@@ -1,7 +1,10 @@
 # Concepts
 
+## Order
+TODO:
+
 ## Rank
-The rank of a matrix is equal to the number of linearly independent rows (or columns) in it. <sup>[1]</sup>
+The rank of a matrix is equal to the number of linearly independent rows (or columns) in it. <sup>[1]</sup> <br>
 The rank of a matrix is the **order** of the highest ordered non-zero **minor**. <sup>[1]</sup>
 
 ### Reference
@@ -77,7 +80,7 @@ $`A \times {(B \times C)}`$
 
 ## Minor of a specific element
 The **minor** of an element in a matrix is defined as the **determinant** <br>
-obtained by deleting the row and column in which that element lies. <sup>Ref[2]</sup>
+obtained by deleting the row and column in which that element lies. <sup>[2]</sup>
 
 Here the minor of the element $`a_{ij}`$ is denoted as $`M_{ij}`$. <br>
 For example, the minor for the $`a_{12}`$ entry is $`M_{12}`$ in $`A`$ matrix. <br>
@@ -97,6 +100,11 @@ M_{12} =  \begin{vmatrix}
       \end{vmatrix} 
 `$
 
+Minor of matrix for a particular element in the matrix is defined as **the matrix** <br>
+obtained after deleting the row and column of the matrix in which that particular element lies. <sup>[1]</sup>
+
+1.2 Definition: For any $`n×n`$ matrix $`T`$, the $`(n − 1)×(n − 1)`$ matrix formed by <br>
+deleting row $`i`$ and column $`j`$ of $`T`$ is the **i,j minor of T**. <sup>[3]</sup>
 
 ## Minor of matrix
 We can take the minors of the matrix and form a **minor matrix M** of the given matrix A as: <br>
@@ -113,6 +121,7 @@ $`M_{ij}`$ is the minor of $`a_{ij}`$ element in matrix A.
 ### Reference
 1. ~~[Minor of matrix](https://www.cuemath.com/algebra/minor-of-matrix/)~~
 2. [What Are Minors?](https://byjus.com/jee/minors-and-cofactors/)
+3. Book: Linear Algebra 4th
 
 
 ## Co-factor Matrix
