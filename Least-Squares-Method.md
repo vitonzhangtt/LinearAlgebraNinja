@@ -19,6 +19,17 @@ between the points and the curve. It is a common approach in regression analysis
 line that represents the trend of a data set. This method is used in various fields, like finance and <br>
 sciences, to model relationships between variables and make predictions. <sup>Google AI Overview</sup>
 
+## Residuals
+
+In least squares, residuals are the differences between the actual (observed) values and the values <br>
+predicted by the regression line. They represent the vertical distance from a data point to the line <br>
+and are calculated as $`residual=(actual value - predicted value)`$ ($`r = y-\hat{y}`$). <br>
+The least squares method finds the line that minimizes the sum of the squared residuals, <br>
+which is the measure of the model's overall error. <sup>Google AI Overview</sup>
+
+A residual is calculated by taking an individual's observed $`y`$ value minus their corresponding <br>
+predicted $`\hat{y}`$ value. Therefore, each individual has a residual. <sup>[5]</sup>
+
 ## Applications <sup>Google AI Overview</sup>
 * Regression analysis: It is a core component of regression analysis, which is used to estimate the <br>
   relationship between a dependent variable and one or more independent variables.
@@ -53,3 +64,4 @@ $`A^{T}Ax=A^{T}b`$
 2. [Least Square Method](https://www.cuemath.com/data/least-squares/)
 3. [Least Squares Method: What It Means and How to Use It, With Examples](https://www.investopedia.com/terms/l/least-squares-method.asp)
 4. [6.5The Method of Least Squares](https://textbooks.math.gatech.edu/ila/least-squares.html) (from gatech) (AAAA)
+5. [12.3.1 - Formulas](https://online.stat.psu.edu/stat200/lesson/12/12.3/12.3.1)
