@@ -4,11 +4,23 @@
 TODO:
 
 ## Rank
+
+### What's rank of a matrix?
+
 The rank of a matrix is equal to the number of linearly independent rows (or columns) in it. <sup>[1]</sup> <br>
 The rank of a matrix is the **order** of the highest ordered non-zero **minor**. <sup>[1]</sup>
 
+In fact the rows and columns always agree on the rank (amazing but true!). <sup>[2]</sup>
+
+The rank is how many of the rows are "unique": not made of other rows. (Same for columns.) <sup>[2]</sup>
+
+### How to Find the Rank of a Matrix?
+
+
 ### Reference
 1. [Rank of a Matrix](https://www.cuemath.com/algebra/rank-of-a-matrix/) [To Read]
+2. [Matrix Rank](https://www.mathsisfun.com/algebra/matrix-rank.html)
+3. [Rank of a matrix](https://byjus.com/jee/rank-of-a-matrix-and-special-matrices/)
 
 ## Determinant
 
