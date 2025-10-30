@@ -558,5 +558,12 @@ The null matrix is also called a **zero matrix**.
 
 ### Reference
 
+## Frobenius norm
+
+The Frobenius norm is a way to measure the "size" of a matrix, defined as the square root <br>
+of the sum of the squares of all its elements. 
+
+It is calculated by summing the squares of every element, and then taking the square <br>
+root of that sum. 
 
 
