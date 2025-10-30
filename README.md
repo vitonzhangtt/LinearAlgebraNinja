@@ -19,6 +19,8 @@ Georgia Institute of Technology <br>
 
 June 3, 2019
 
+#### [Understanding Linear Algebra](https://understandinglinearalgebra.org/ula.html) [To Read]
+David Austin
 
 
 ## Abstract Linear Algebra
