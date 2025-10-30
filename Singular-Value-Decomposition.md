@@ -17,7 +17,7 @@ of $`A`$ is $`VD^{−1}U^{T}`$, as the reader can verify. <sup>[1]</sup>
 
 ### Find low rank matrix $`B`$ which is close to data matrix $`A`$
 
-The data matrix $`A`$ is close to a matrix of low rank and it is useful to find a low [rank]() matrix <br>
+The data matrix $`A`$ is close to a matrix of low rank and it is useful to find a low [rank](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#rank) matrix <br>
 which is a good approximation to the data matrix. <sup>[1]</sup>
 
 ### 
