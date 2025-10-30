@@ -68,10 +68,18 @@ $`v_{3}`$, $`v_{4}`$, . . . in a similar manner.
 
 The **second singular vector**, $`v_{2}`$, is defined by the best fit line perpendicular to $`v_{1}`$ <br>
 
-$`v_{2} = \underset{,|v|=1}{argmax|Av|}`$
+$`v_{2} = \underset{v \perp v_{1},|v|=1}{argmax|Av|}`$
 
+The value $`\sigma_{2}(A) = |Av_{2}|`$ is called the **second singular value** of $`A`$.
 
+The **third singular vector** $`v_{3}`$ is defined similarly by
 
+$`v_{3} = \underset{v \perp v_{1}, v_{2},|v|=1}{argmax|Av|}`$
+
+and so on. The process stops when we have found $`v_{1},v_{2},...,v_{r}`$ <br>
+as singular vectors and
+
+$`\underset{v \perp v_{1}, v_{2}, ...,v_{r}, |v|=1}{argmax|Av|} = 0`$
 
 
 
