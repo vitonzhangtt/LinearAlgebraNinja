@@ -81,10 +81,15 @@ as singular vectors and
 
 $`\underset{v \perp v_{1}, v_{2}, ...,v_{r}, |v|=1}{argmax|Av|} = 0`$
 
+## Singular Value Decomposition (SVD)
 
+<img width="764" height="471" alt="Screen Shot 2025-10-31 at 21 40 28" src="https://github.com/user-attachments/assets/10870a44-5fac-426e-83f1-d9e0aba902ba" />
 
+Theorem 1.5 Let $`A`$ be an $`n × d`$ matrix with **right singular vectors** $`v_{1}, v_{2}, . . . , v_{r}`$, <br>
+**left singular vectors** $`u_{1}, u_{2}, . . . , u_{r}`$, and corresponding **singular values** <br>
+$`σ_{1}, σ_{2}, . . . , σ_{r}`$. Then
 
-
+$`A = \sum_{i=1}^{r} \sigma_{i}u_{i}v_{i}^{T}`$
 
 
 
