@@ -566,4 +566,11 @@ of the sum of the squares of all its elements.
 It is calculated by summing the squares of every element, and then taking the square <br>
 root of that sum. 
 
+$`{\Vert A \Vert}_{F} = \sqrt{ \underset{j,k}{\sum {{a^2}_{jk}} }}`$
 
+## 2-norm
+
+The 2-norm of a matrix $`A`$ is the square root of the largest eigenvalue of $`A^{T}A`$. <br>
+Alternatively, it is defined as the **maximum singular value** of the matrix.
+
+$`{\Vert A \Vert}_{2} = \underset{|v|=1}{max|Av|}`$
