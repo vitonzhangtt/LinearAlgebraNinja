@@ -42,3 +42,4 @@ a solution. <sup>Google AI Overview</sup>
 3. Video: [Norms | Linear Algebra prerequisites](https://www.youtube.com/watch?v=_xfOIp55VD4&t=3) [To Read]
 4. [Linear Algebra: Norm of a Vector, L1 and L2 Norm](https://medium.com/@praggrt/linear-algebra-norm-of-a-vector-l1-and-l2-norm-7cdf061b9888)
 5. [Norms](https://www.cfm.brown.edu/people/dobrush/cs52/Mathematica/Part5/norm.html) from 	Brown University
+6. [Machine Learning Basics - The Norms: Learn linear algebra through code and visualization.](https://www.datacamp.com/tutorial/tutorial-machine-learning-basics-norms) [To Read]
