@@ -534,7 +534,7 @@ In some contexts, $`{A}^{*}`$ denotes the matrix with only complex conjugated en
 ### Reference
 [Conjugate transpose](https://en.wikipedia.org/wiki/Conjugate_transpose)
 
-## Unitary matrix
+## Unitary matrix (酉矩阵)
 A unitary matrix is a square matrix of complex numbers, whose inverse is equal to <br>
 its [conjugate transpose](#conjugate-transpose-matrix). If $`U^{\mathrm {H}}=U^{-1}`$, then U is unitary matrix.
 
