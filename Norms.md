@@ -59,3 +59,4 @@ $`\Vert A \Vert_{F} = (\sum_{i,j=1}^{n}|a_{ij}|^2)^{\frac{1}{2}} = \sqrt{tr(AA^*
 6. [Machine Learning Basics - The Norms: Learn linear algebra through code and visualization.](https://www.datacamp.com/tutorial/tutorial-machine-learning-basics-norms) [To Read]
 7. [Lecture 26: Norms and inner products.](https://people.tamu.edu/~yvorobets/MATH304-2011C/Lect3-04web.pdf)
 8. [Norms in Linear Algebra](https://blog.langformers.com/norms-linear-algebra/)
+9. [Norms.](https://medium.com/@lobosi/linear-algebra-for-machine-learning-norms-815097da5d08)
