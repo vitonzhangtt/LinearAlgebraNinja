@@ -347,7 +347,8 @@ $`(A^2)^T=A^TA^T=(A^T)^2`$ <br>
 $`(A^3)^T=A^TA^TA^T=(A^T)^3 \implies (A^n)^T=(A^T)^n `$
 
 
-## Hermitian Matrix
+## Hermitian Matrix (厄米特矩阵, 埃尔米特矩阵, 厄米矩阵)
+
 A hermitian matrix is a square matrix, which is equal to its [conjugate transpose](#conjugate-transpose-matrix) <br>
 matrix. The non-diagonal elements of a hermitian matrix are all complex numbers. <br> 
 If $`A=A^{\mathrm {H}}`$, then A is hermitian matrix.
