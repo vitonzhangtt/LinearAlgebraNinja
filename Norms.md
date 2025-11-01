@@ -36,6 +36,10 @@ a solution. <sup>Google AI Overview</sup>
 
 
 
+
+
+
+
 ## Reference
 1. [Chapter 4: Vector Norms and Matrix Norms](https://www.cis.upenn.edu/~cis5150/cis515-11-sl4.pdf)
 2. Video: [Linear Algebra: Norm](https://www.youtube.com/watch?v=3i3klTnGZZM) [To Read]
@@ -43,3 +47,4 @@ a solution. <sup>Google AI Overview</sup>
 4. [Linear Algebra: Norm of a Vector, L1 and L2 Norm](https://medium.com/@praggrt/linear-algebra-norm-of-a-vector-l1-and-l2-norm-7cdf061b9888)
 5. [Norms](https://www.cfm.brown.edu/people/dobrush/cs52/Mathematica/Part5/norm.html) from 	Brown University
 6. [Machine Learning Basics - The Norms: Learn linear algebra through code and visualization.](https://www.datacamp.com/tutorial/tutorial-machine-learning-basics-norms) [To Read]
+7. [Lecture 26: Norms and inner products.](https://people.tamu.edu/~yvorobets/MATH304-2011C/Lect3-04web.pdf)
