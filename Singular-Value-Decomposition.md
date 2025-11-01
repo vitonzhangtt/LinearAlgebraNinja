@@ -92,7 +92,75 @@ $`σ_{1}, σ_{2}, . . . , σ_{r}`$. Then
 $`A = \sum_{i=1}^{r} \sigma_{i}u_{i}v_{i}^{T}`$
 
 
-## Methods for Computing SVD
+## Methods for Computing SVD <sup>Google AI Overview</sup>
+
+The Singular Value Decomposition (SVD) of a matrix can be computed using various numerical methods, <br>
+which generally fall into **direct**, **iterative**, and **randomized** categories:
+
+### 1. Direct Methods (Dense Matrices)
+These methods aim to find the SVD by a series of transformations and are typically used for <br>
+**dense matrices of moderate size**.
+
+* Golub-Reinsch Algorithm: This is a widely used and robust algorithm. It involves:
+   * Bidiagonalization: The original matrix $`\mathbf{A}`$ is transformed into a bidiagonal matrix <br>
+     $`\mathbf{B}`$ using Householder reflections.
+   * QR Algorithm: An iterative process based on the QR algorithm is then applied to the <br>
+     bidiagonal matrix $`\mathbf{B}`$ to find its singular values (which are the same as $`\mathbf{A}`$'s singular values).
+   * Accumulation: The transformations used are accumulated to obtain the left and right singular vectors.
+* Golub-Kahan Bidiagonalization: This method is a key step in several SVD algorithms, including the Golub-Reinsch. <br>
+  It systematically reduces the matrix to a bidiagonal form using Householder reflections or Givens rotations
+
+### 2. Iterative Methods (Sparse or Large Matrices)
+
+These methods are often preferred for large or sparse matrices where direct methods are computationally expensive. 
+
+* **Power Method** (and its variants): As mentioned previously, the power method can be used to find <br>
+  the **dominant singular value** and its corresponding singular vectors.
+   * Subspace Iteration/Block Power Method: An extension that uses multiple vectors (a "block") simultaneously <br>
+     to find a few of the largest singular values and vectors more efficiently than a single vector power method.
+* **Krylov Subspace Methods** (e.g., Lanczos and Arnoldi algorithms): These methods are particularly <br>
+  effective for large, sparse matrices. The Lanczos bidiagonalization process is commonly used to
+  generate a Krylov subspace, from which the extreme singular values can be approximated efficiently.
+* **Jacobi-type Algorithms**: These methods use a series of orthogonal transformations (rotations) to <br>
+  iteratively diagonalize the matrix or the matrix $`\mathbf{A}^{T}\mathbf{A}`$. They are simple to <br>
+  implement and very accurate, especially for finding all singular values, but can be slower than the  <br>
+  Golub-Reinsch method for dense matrices [2].
+   * J-PAUM (Jacobi Parallel Under Adiabatic Model): A **parallelized Jacobi algorithm variant** designed <br>
+     for modern computer architectures [2]
+
+### 3. Randomized Algorithms (Very Large Datasets)
+For extremely large matrices where even standard iterative methods are too slow, **randomized algorithms** <br>
+offer efficient approximations.
+
+* Randomized Subspace Iteration: This approach involves:
+   * Random Projection: Projecting the original matrix onto a smaller, random subspace.
+   * Standard SVD on the smaller matrix: Computing the SVD of the much smaller projected matrix <br>
+     using traditional methods.
+   * Reconstruction: The results are used to approximate the SVD of the original matrix.
+* Randomized Sampling: This involves selecting specific columns or rows of the matrix to form a smaller <br>
+  matrix whose SVD approximates the original matrix's SVD.
+  
+The choice of method depends heavily on the matrix's characteristics: size, density (number of zero entries), <br>
+and whether a full or just a partial SVD is required. The Golub-Reinsch algorithm remains the standard <br>
+for general dense matrices due to its robustness and speed, while Lanczos-based or randomized methods <br>
+are preferred for large-scale applications.
+
+Methods for computing the Singular Value Decomposition (SVD) generally fall into two categories: <br> 
+**classical methods** (which provide high accuracy for all singular values) and **specialized methods** <br>
+for large, sparse matrices (which typically approximate only the largest singular values). 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
