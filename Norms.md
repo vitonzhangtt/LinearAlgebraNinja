@@ -29,10 +29,18 @@ a solution. <sup>Google AI Overview</sup>
   The choice of norm can be crucial depending on the problem (e.g., a "taxi cab" metric in <br>
   city navigation vs. a direct distance). 
 
+## Vector Norms
 
+## Matrix Norms
 
+### Frobenius norm
 
+Definition 4.6. <sup>[1]</sup> The Frobenius norm $`\Vert \Vert_{F}`$ is defined so <br>
+that for every **square** $`n × n`$ matrix $`A \in M_{n}(\mathbb{C})`$
 
+$`\Vert A \Vert_{F} = (\sum_{i,j=1}^{n}|a_{ij}|^2)^{\frac{1}{2}} = \sqrt{tr(AA^*)} = \sqrt{tr(A^*A)}`$
+
+**NOTE**: $`A^*`$ is the Hermitian Matrix of $`A`$.
 
 
 
@@ -48,3 +56,4 @@ a solution. <sup>Google AI Overview</sup>
 5. [Norms](https://www.cfm.brown.edu/people/dobrush/cs52/Mathematica/Part5/norm.html) from 	Brown University
 6. [Machine Learning Basics - The Norms: Learn linear algebra through code and visualization.](https://www.datacamp.com/tutorial/tutorial-machine-learning-basics-norms) [To Read]
 7. [Lecture 26: Norms and inner products.](https://people.tamu.edu/~yvorobets/MATH304-2011C/Lect3-04web.pdf)
+8. [Norms in Linear Algebra](https://blog.langformers.com/norms-linear-algebra/)
