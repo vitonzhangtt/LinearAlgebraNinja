@@ -92,6 +92,8 @@ $`σ_{1}, σ_{2}, . . . , σ_{r}`$. Then
 $`A = \sum_{i=1}^{r} \sigma_{i}u_{i}v_{i}^{T}`$
 
 
+## Methods for Computing SVD
+
 
 
 
