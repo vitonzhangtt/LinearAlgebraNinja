@@ -40,7 +40,7 @@ that for every **square** $`n × n`$ matrix $`A \in M_{n}(\mathbb{C})`$
 
 $`\Vert A \Vert_{F} = (\sum_{i,j=1}^{n}|a_{ij}|^2)^{\frac{1}{2}} = \sqrt{tr(AA^*)} = \sqrt{tr(A^*A)}`$
 
-**NOTE**: $`A^*`$ is the Hermitian Matrix of $`A`$.
+**NOTE**: $`A^*`$ is the [Hermitian Matrix](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#hermitian-matrix-%E5%8E%84%E7%B1%B3%E7%89%B9%E7%9F%A9%E9%98%B5-%E5%9F%83%E5%B0%94%E7%B1%B3%E7%89%B9%E7%9F%A9%E9%98%B5-%E5%8E%84%E7%B1%B3%E7%9F%A9%E9%98%B5) of $`A`$.
 
 
 
