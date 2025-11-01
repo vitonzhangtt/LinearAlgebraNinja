@@ -22,6 +22,25 @@ June 3, 2019
 #### [Understanding Linear Algebra](https://understandinglinearalgebra.org/ula.html) [To Read]
 David Austin
 
+#### [Advanced Linear Algebra: Foundations to Frontiers](https://www.cs.utexas.edu/~flame/laff/alaff/frontmatter.html)
+
+Robert van de Geijn <br>
+Department of Computer Science 
+and <br>
+Oden Institute <br>
+The University of Texas at Austin <br>
+rvdg@cs.utexas.edu 
+
+Margaret Myers <br>
+Department of Computer Science <br>
+and <br>
+Oden Institute <br>
+The University of Texas at Austin <br>
+myers@cs.utexas.edu 
+
+October 11, 2023
+
+
 
 ## Abstract Linear Algebra
 
