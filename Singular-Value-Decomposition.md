@@ -92,6 +92,13 @@ $`σ_{1}, σ_{2}, . . . , σ_{r}`$. Then
 $`A = \sum_{i=1}^{r} \sigma_{i}u_{i}v_{i}^{T}`$
 
 
+## SVD and EVD
+
+Eigen Value Decomposition (EVD)
+
+
+
+
 ## Methods for Computing SVD <sup>Google AI Overview</sup>
 
 The Singular Value Decomposition (SVD) of a matrix can be computed using various numerical methods, <br>
@@ -173,3 +180,4 @@ for large, sparse matrices (which typically approximate only the largest singula
 3. [15 Singular Value Decomposition](https://users.cs.utah.edu/~jeffp/teaching/cs5140-S15/cs5140/L15-SVD.pdf) from utah [To Read]
 4. [7.4 Singular Value Decompositions](https://understandinglinearalgebra.org/sec-svd-intro.html) [To Read]
 5. [Singular Value Decomposition (SVD), Demystified](https://towardsdatascience.com/singular-value-decomposition-svd-demystified-57fc44b802a0/)
+6. [Singular Value Decomposition and Its Visualization](https://www.stat.purdue.edu/~lingsong/research/SVDvisual.pdf)
