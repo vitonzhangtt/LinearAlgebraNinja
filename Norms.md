@@ -31,6 +31,8 @@ a solution. <sup>Google AI Overview</sup>
 
 ## Vector Norms
 
+TODO: [8]
+
 ## Matrix Norms
 
 ### Frobenius norm
