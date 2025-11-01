@@ -5,6 +5,7 @@ Record the notes when learning the Linear Algebra.
 
 ### Courses
 1. Video: [Linear Algebra by Derek Banas](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQNOt6xlugFm3LmTYo5g_7i)
+2. [MATH 304-502: Linear Algebra](https://people.tamu.edu/~yvorobets/MATH304-2011C/MATH304-502.html) (AAAA+) 
 
 ### Books
 
