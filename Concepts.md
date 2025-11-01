@@ -1,7 +1,12 @@
 # Concepts
 
+## Trace (迹)
+
+[TODO]
+
 ## Order
-TODO:
+
+[TODO]
 
 ## Rank
 
