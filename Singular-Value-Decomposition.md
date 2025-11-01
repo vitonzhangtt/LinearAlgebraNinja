@@ -94,9 +94,21 @@ $`A = \sum_{i=1}^{r} \sigma_{i}u_{i}v_{i}^{T}`$
 
 ## SVD and EVD
 
-Eigen Value Decomposition (EVD)
+Eigen Value Decomposition (EVD) / Eigen Decomposition
 
+One key distinction is that SVD can be applied to any **rectangular matrix**, while <br>
+Eigen Decomposition is limited to **square matrices**. <sup>[7]</sup>
 
+### Key Differences Between SVD and Eigen Decomposition <sup>[7]</sup>
+* Applicability:
+   * Eigen Decomposition applies only to square matrices.
+   * SVD can be applied to any matrix (square or rectangular).
+* Orthogonality:
+   * Eigenvectors are not necessarily orthogonal.
+   * Singular vectors from SVD are always orthogonal, making SVD preferable for data transformations.
+* Value Range:
+   * Eigenvalues can be negative.
+   * Singular values are always non-negative.
 
 
 ## Methods for Computing SVD <sup>Google AI Overview</sup>
@@ -181,3 +193,4 @@ for large, sparse matrices (which typically approximate only the largest singula
 4. [7.4 Singular Value Decompositions](https://understandinglinearalgebra.org/sec-svd-intro.html) [To Read]
 5. [Singular Value Decomposition (SVD), Demystified](https://towardsdatascience.com/singular-value-decomposition-svd-demystified-57fc44b802a0/)
 6. [Singular Value Decomposition and Its Visualization](https://www.stat.purdue.edu/~lingsong/research/SVDvisual.pdf)
+7. [Singular Value Decomposition (SVD) vs. Eigen Decomposition: A Deep Dive](https://medium.com/@ml_dl_explained/singular-value-decomposition-svd-vs-eigen-decomposition-a-deep-dive-6cc99463b45d)
