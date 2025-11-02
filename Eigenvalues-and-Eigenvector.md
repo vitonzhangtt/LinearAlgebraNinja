@@ -9,3 +9,4 @@
 
 
 ## Reference
+1. [Introduction to Eigenvector](https://understandinglinearalgebra.org/sec-eigen-intro.html)
