@@ -9,6 +9,7 @@ Record the notes when learning the Linear Algebra.
 3. Video: [Linear Algebra](https://www.youtube.com/playlist?list=PLBh2i93oe2quLc5zaxD0WHzQTGrXMwAI6) by The Bright Side of Mathematics
 4. Video: [Linear Algebra Lectures](https://www.youtube.com/playlist?list=PLNr8B4XHL5kGDHOrU4IeI6QNuZHur4F86) by James Hamblin
 5. Video: [Linear Algebra 線性代數 (2018)](https://www.youtube.com/playlist?list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW) by Hung-yi Lee
+6. Video: [Essence of linear algebra by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ### Books
 
