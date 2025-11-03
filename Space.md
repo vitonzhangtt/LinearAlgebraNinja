@@ -48,3 +48,4 @@ $`AX = [v_{1}, v_{2}, v_{3}]X = v_{1}x_{1} + v_{2}x_{2} + v_{3}x_{3}`$
 5. [Math 2331 – Linear Algebra: 4.2 Null Spaces, Column Spaces, & Linear Transformations](https://www.math.uh.edu/~jiwenhe/math2331/lectures/sec4_2.pdf) [To Read]
 6. Video: [Linear Algebra 11: Null Space](https://www.youtube.com/watch?v=l30SWgqrY28)
 7. Video: [Linear Algebra - Lecture 28 - Null Space of a Matrix](https://www.youtube.com/watch?v=1b857qTFTgw)
+8. [Orthonormal bases of the right and left null space using singular value decomposition](https://cseweb.ucsd.edu/~bochoa/notes/nullspace.pdf)
