@@ -53,10 +53,12 @@ it has a few limitations. They are:
 
 ## Least Square Method Formula
 
-Theorem Let $`A`$ be an $`m×n`$ matrix and let $`b`$ be a vector in $`R^{m}`$. <br>
+**Theorem** Let $`A`$ be an $`m×n`$ matrix and let $`b`$ be a vector in $`R^{m}`$. <br>
 The least-squares solutions of $`Ax=b`$ are the solutions of the matrix equation <sup>[4]</sup> <br>
 
 $`A^{T}Ax=A^{T}b`$
+
+### Proof
 
 
 ## Reference
