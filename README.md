@@ -4,9 +4,11 @@ Record the notes when learning the Linear Algebra.
 ## Linear Algebra
 
 ### Courses
-1. Video: [Linear Algebra by Derek Banas](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQNOt6xlugFm3LmTYo5g_7i)
+1. Video: [Linear Algebra by Derek Banas](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQNOt6xlugFm3LmTYo5g_7i) [To Read]
 2. [MATH 304-502: Linear Algebra](https://people.tamu.edu/~yvorobets/MATH304-2011C/MATH304-502.html) (AAAA+)
-3. [Linear Algebra](https://www.youtube.com/playlist?list=PLBh2i93oe2quLc5zaxD0WHzQTGrXMwAI6) by The Bright Side of Mathematics
+3. Video: [Linear Algebra](https://www.youtube.com/playlist?list=PLBh2i93oe2quLc5zaxD0WHzQTGrXMwAI6) by The Bright Side of Mathematics
+4. Video: [Linear Algebra Lectures](https://www.youtube.com/playlist?list=PLNr8B4XHL5kGDHOrU4IeI6QNuZHur4F86) by James Hamblin
+5. Video: [Linear Algebra 線性代數 (2018)](https://www.youtube.com/playlist?list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW) by Hung-yi Lee
 
 ### Books
 
