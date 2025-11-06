@@ -60,8 +60,8 @@ v_{1}+w_{1}, v_{2}+w_{2}, v_{3}+w_{3}, v_{4}+w_{4}
 
 ## Matrix-vector multiplication and linear combinations
 
-Definition 2.2.2. **Matrix-vector multiplication**.  The product of a matrix $`A`$ 
-by a vector $`X`$ will be the **linear combination** of the columns of using the 
+Definition 2.2.2. **Matrix-vector multiplication**.  The product of a matrix $`A`$ <br>
+by a vector $`X`$ will be the **linear combination** of the columns of using the <br>
 components of $`X`$ as weights. More specifically, if
 
 
