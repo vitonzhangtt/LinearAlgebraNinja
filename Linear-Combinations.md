@@ -81,6 +81,12 @@ then <br>
 $`Ax = c_{1}v_{1}+c_{2}v_{2}+...+c_{n}v_{n}`$
 
 
+If $`A`$ is an $`m \times n`$ matrix, then $`x`$ must be an $`n`$-dimensional vector, <br>
+and the product will be an $`m`$-dimensional vector.
+
+## Matrix-matrix products
+
+
 ## Reference
 1. [2.2 Matrix multiplication and linear combinations](https://understandinglinearalgebra.org/sec-matrices-lin-combs.html)
 
