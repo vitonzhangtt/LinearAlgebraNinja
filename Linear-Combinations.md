@@ -58,6 +58,14 @@ w_{1}, w_{2}, w_{3}, w_{4}
 v_{1}+w_{1}, v_{2}+w_{2}, v_{3}+w_{3}, v_{4}+w_{4}
 \end{bmatrix}`$
 
+### Linearity of matrix multiplication
+Proposition 2.2.3. Linearity of matrix multiplication.  If $`A`$ is a matrix, <br>
+$`v`$ and $`w`$ vectors of the appropriate dimensions, and $`c`$ a scalar, then <br>
+
+* $`A0 = 0`$.
+* $`A(cv) = cAv`$.
+* $`A(v+w) = Av + Aw`$.
+
 ## Matrix-vector multiplication and linear combinations
 
 Definition 2.2.2. **Matrix-vector multiplication**.  The product of a matrix $`A`$ <br>
@@ -85,6 +93,21 @@ If $`A`$ is an $`m \times n`$ matrix, then $`x`$ must be an $`n`$-dimensional ve
 and the product will be an $`m`$-dimensional vector.
 
 ## Matrix-matrix products
+
+### Matrix-matrix multiplication
+
+Given matrices $`A`$ and $`B`$, we form their product $`AB`$ by first writing $`B`$ <br>
+in terms of its columns <br>
+
+$`B = \begin{bmatrix}
+v_{1}, v_{2}, v_{3}, ..., v_{p}
+\end{bmatrix}`$
+
+and then defining
+
+$`AB = \begin{bmatrix}
+Av_{1}, Av_{2}, Av_{3}, ..., Av_{p}
+\end{bmatrix}`$.
 
 
 ## Reference
