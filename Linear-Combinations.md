@@ -88,9 +88,26 @@ c_{n}
 then <br>
 $`Ax = c_{1}v_{1}+c_{2}v_{2}+...+c_{n}v_{n}`$
 
-
 If $`A`$ is an $`m \times n`$ matrix, then $`x`$ must be an $`n`$-dimensional vector, <br>
 and the product will be an $`m`$-dimensional vector.
+
+
+The solution space to the equation $`Ax = b`$ is the same as the solution space to the <br> 
+linear system corresponding to the **augmented matrix** $`[A | b]`$.
+
+Proposition 2.2.4.  If $`A = [v_{1}, v_{2}, ..., v_{n}]`$ and $`x = \begin{pmatrix}
+c_{1}\\
+c_{2}\\
+\cdot\\
+\cdot\\
+\cdot\\
+c_{n}
+\end{pmatrix}`$, then the following statements are equivalent.
+* The vector $`x`$ satisfies the equation $`Ax = b`$.
+* The vector $`Ax`$ is a linear combination of the columns of $`A`$ with weights $`x_{j}`$:
+$`x_{1}v_{1} + x_{2}v_{2} + ... + x_{n}v_{n} = b`$.
+* The components of $`x`$ form a solution to the **linear system** corresponding to the **augmented matrix**
+  $`[v_{1}, v_{2}, ..., v_{n} | b]`$
 
 ## Matrix-matrix products
 
@@ -108,6 +125,24 @@ and then defining
 $`AB = \begin{bmatrix}
 Av_{1}, Av_{2}, Av_{3}, ..., Av_{p}
 \end{bmatrix}`$.
+
+### Properties of Matrix-matrix Multiplication
+If $`A`$, $`B`$, and $`C`$ are matrices such that the following operations are defined, <br>
+it follows that
+
+* Associativity:
+$`A(BC) = (AB)C`$
+* Distributivity:
+  $`A(B+C) = AB + BC`$
+  $`(A+B)C = AC + BC`$
+
+#### Caution
+
+The following properties hold for **real numbers** but not for matrices. <br>
+* Commutativity: It is not generally true that $`AB = BA`$
+* Cancellation: It is not generally true that $`AB = AC`$ implies that $`B = C`$.
+* Zero divisors: It is not generally true that $`AB = 0`$ implies that either $`A = 0`$
+ or $`B = 0`$. 
 
 
 ## Reference
