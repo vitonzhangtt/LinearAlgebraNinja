@@ -42,10 +42,22 @@ A =  \begin{pmatrix}
 then $`det(A) = ad − bc`$.
 3. if $`A`$ is an n×n matrix, where $`n ≥ 2`$, then det(A) is the number found by taking <br>
 the [cofactor expansion](#co-factor-expansion-ref3) along the first row of A. That is, <br>
-$`det(A) = a_{1,1}C_{1,1} + a_{1,2}C_{1,2} + · · · + a_{1,n}C_{1,n}`$.
+$`det(A) = a_{1,1}C_{1,1} + a_{1,2}C_{1,2} + · · · + a_{1,n}C_{1,n}`$. <sup>[1]</sup>
+
+### Properties
+[2]
+
+### Geometric Interpretation
+[2], [3], 
 
 ### Reference
 1. [Section 3.3 'The Determinant' in Ref[3]](https://github.com/vitonzhangtt/LinearAlgebraNinja/edit/main/Reference.md#reference-list)
+2. [Understanding the properties of Determinants — The Geometry way](https://medium.com/@sumanthpsv/understanding-the-properties-of-determinants-the-geometry-way-001d96a9ddc2)
+3. [The Geometric Interpretation of the Determinant](https://mathresearch.utsa.edu/wiki/index.php?title=The_Geometric_Interpretation_of_the_Determinant)
+4. Video: [The determinant | Chapter 6, Essence of linear algebra](https://www.youtube.com/watch?v=Ip3X9LOh2dk)
+5. Video: [Determinants and Geometry, it is easy to understand!](https://www.youtube.com/watch?v=3ARV93UHHyI)
+6. Video: [8f) Geometrical interpretation of the determinant](https://www.youtube.com/watch?v=CcD2nvvOnNA)
+7. [Math 217: The Geometric interpretation of the determinant. by Professor Karen Smith](https://sites.lsa.umich.edu/kesmith/wp-content/uploads/sites/1309/2024/06/ProofDeterminantVolume2017.pdf)
 
 
 ## Inverse
