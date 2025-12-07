@@ -17,7 +17,7 @@ elements contain the **covariances** between each pair of variables.
 * A covariance near zero indicates no consistent linear relationship between the variables. 
 
 
-## [Variances](https://www.cuemath.com/data/variance/)
+## [Variances](https://github.com/vitonzhangtt/ProbabilityTheoryNinja/blob/main/Variance.md)
 
 
 
