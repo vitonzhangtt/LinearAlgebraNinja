@@ -22,3 +22,4 @@ elements contain the **covariances** between each pair of variables.
 
 
 ## Reference
+1. [Covariance Matrix](https://www.cuemath.com/algebra/covariance-matrix/)
