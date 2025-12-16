@@ -2,9 +2,12 @@
 
 ## Definition
 The cross product of two vectors $`a`$ and $`b`$ is defined only in <br> 
-three-dimensional space and is denoted by $`a × b`$
+three-dimensional space and is denoted by $`a × b`$. <sup>[1]</sup>
 
-## 
+The cross product $`× : R^{3} × R^{3} → R^{3} `$ is an operation that takes two vectors $`u`$ and <br>
+$`v`$ in space and determines another vector $`u×v`$ in space. <sup>[2]</sup>
+
+
 
 ## Conversion to matrix multiplication
 Let $`\vec{a} = {(a_{1}, a_{2}, a_{3})}`$ and $`\vec{b} = {(b_{1}, b_{2}, b_{3})}`$, then
@@ -20,4 +23,5 @@ $`
 `$
 
 ## Reference
-1. [Cross product](https://en.wikipedia.org/wiki/Cross_product)
+1. wiki: [Cross product](https://en.wikipedia.org/wiki/Cross_product)
+2. [Cross products, Math 130 Linear Algebra, D Joyce, Fall 2015](https://math.clarku.edu/~ma130/crossproducts.pdf)
