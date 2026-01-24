@@ -14,6 +14,8 @@ defined as a matrix representing the **autocorrelation function** of a signal. <
 
 ## Mathematical Foundations and Properties <sup>[1]</sup>
 
+### Autocorrelation Matrix (自相关矩阵)
+
 The (potentially time-dependent) autocorrelation matrix (also called **second moment**) of <br>
 a (potentially time-dependent) random vector $` \mathbf {X} =(X_{1},\ldots ,X_{n})^{\rm {T}}`$ is <br>
 an $`{\displaystyle n\times n}`$ matrix containing as elements the autocorrelations of all pairs <br>
@@ -38,6 +40,8 @@ $`{\displaystyle {R} _{\mathbf {X} \mathbf {X} }={
   \end{bmatrix}
   }
   }`$
+
+### Covariance Matrix
 
 
 ## Uncertainty Ellipse (or Covariance Ellipse) <sup>Google AI Overview</sup>
