@@ -44,14 +44,14 @@ $`{\displaystyle {R} _{\mathbf {X} \mathbf {X} }={
 
 **Uncertainty ellipse** (or **covariance ellipse**) analysis uses the **eigenvalues** and **eigenvectors** <br>
 of an autocorrelation (or covariance) matrix to **geometrically** characterize the uncertainty in <br>
-2D or 3D data. The eigenvalues represent the **variance of the data** along the **principal axes** <br>
-(magnitudes), while the eigenvectors represent the **orientation of these axes**. 
+2D or 3D data. The **eigenvalues** represent the **variance of the data** along the **principal axes** <br>
+(magnitudes), while the **eigenvectors** represent the **orientation of these axes**. 
 
 ### Core Concepts 
 
 * Autocorrelation/Covariance Matrix: A **symmetric**, **positive semi-definite** matrix that encapsulates <br>
   the variances of variables and the **covariances** between them.
-* Eigenvalues ($`\lambda _{i}$`): The eigenvalues of the covariance matrix represent the amount of <br>
+* Eigenvalues ($`\lambda _{i}`$): The eigenvalues of the covariance matrix represent the amount of <br>
   variance (spread) along the corresponding eigenvectors (principal components).
 * Eigenvectors ($`v_{i}`$): These define the orthogonal directions of the ellipse's axes.
 * The Ellipse: An ellipse represents **a contour of equal probability density for a bivariate normal** <br>
