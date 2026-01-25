@@ -46,6 +46,9 @@ $`{\displaystyle {R} _{\mathbf {X} \mathbf {X} }={
 
 ## Uncertainty Ellipse (or Covariance Ellipse) <sup>Google AI Overview</sup>
 
+An **uncertainty ellipse** (also known as an **error ellipse** or **confidence ellipse**) is a graphical <br>
+representation used in statistics and navigation to visualize the precision of a 2D coordinate estimate.
+
 **Uncertainty ellipse** (or **covariance ellipse**) analysis uses the **eigenvalues** and **eigenvectors** <br>
 of an autocorrelation (or covariance) matrix to **geometrically** characterize the uncertainty in <br>
 2D or 3D data. The **eigenvalues** represent the **variance of the data** along the **principal axes** <br>
@@ -95,3 +98,6 @@ $`\lambda _{1}\ge \lambda _{2}`$) determine the size of the ellipse axes: 
 
 # Reference
 1. wiki: [Autocorrelation of random vectors](https://en.wikipedia.org/wiki/Autocorrelation#Autocorrelation_of_random_vectors)
+2. [How to draw a covariance error ellipse?](https://users.cs.utah.edu/~tch/CS6640F2020/resources/How%20to%20draw%20a%20covariance%20error%20ellipse.pdf)
+3. [How to Properly Plot Uncertainty Ellipses for 2D Normally Distributed Data](https://github.com/botprof/plotting-uncertainty-ellipses)
+4. [Plot a confidence ellipse of a two-dimensional dataset](https://matplotlib.org/stable/gallery/statistics/confidence_ellipse.html)
