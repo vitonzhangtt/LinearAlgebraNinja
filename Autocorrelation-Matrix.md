@@ -44,7 +44,9 @@ $`{\displaystyle {R} _{\mathbf {X} \mathbf {X} }={
 ### Covariance Matrix
 
 
-## Uncertainty Ellipse (or Covariance Ellipse) <sup>Google AI Overview</sup>
+## Uncertainty Ellipse (or Covariance Matrix Ellipse) <sup>Google AI Overview</sup>
+
+Concentration Ellipses, Confidence Ellipse, 
 
 An **uncertainty ellipse** (also known as an **error ellipse** or **confidence ellipse**) is a graphical <br>
 representation used in statistics and navigation to visualize the precision of a 2D coordinate estimate.
