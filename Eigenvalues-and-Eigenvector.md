@@ -58,3 +58,4 @@ where $`I`$ is the identity matrix.
 3. [Linear Algebra for AI: Part 7 — Eigen Decomposition](https://medium.com/@ebimsv/mastering-linear-algebra-part-7-eigen-decomposition-cf3c50308ba7)
 4. [Linear Algebra for AI: Part 1 — Introduction to Linear Algebra in Machine Learning](https://medium.com/@ebimsv/mastering-linear-algebra-part-1-introduction-to-linear-algebra-in-machine-learning-fafcae1a5879) (AAAA) [To Read]
 5. [Eigendecomposition: A Beginner's Guide to Matrix Factorization](https://www.datacamp.com/tutorial/eigendecomposition)
+6. [Facts About Eigenvalues By Dr David Butler](https://www.adelaide.edu.au/mathslearning/ua/media/120/evalue-magic-tricks-handout.pdf) (AAAA+)
