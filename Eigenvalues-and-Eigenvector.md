@@ -20,11 +20,19 @@ and applications like PCA. <sup>Google AI Overview</sup>
 
 * Definition: For a square matrix $`A`$, a scalar $`\lambda`$ (eigenvalue) and a non-zero vector <br>
   $`v`$ (eigenvector) satisfy $`Av=\lambda v`$.
-* Formula: $`A=V\Lambda V^{-1}`$, where $`V`$ is a matrix with **eigenvectors as columns**, and $`\Lambda`$ <br>
+* Formula: $`A=V\Lambda V^{-1}`$, where $`V`$ is a matrix with **eigenvectors as columns** $`(v_{1}, v_{2})`$ ($`\begin{bmatrix}
+  v_{11} & v_{21} \\
+v_{12} & v_{22} 
+\end{bmatrix}`$), and $`\Lambda`$ <br>
   is a diagonal matrix containing corresponding eigenvalues.
 * Diagonalization: Only diagonalizable matrices can be decomposed this way.
 * Spectral Decomposition: For real symmetric matrices, the decomposition is $`A=Q\Lambda Q^{T}`$, <br>
   where $`Q`$ is an orthogonal matrix ($`Q^{-1}=Q^{T}`$). 
+
+#### How does the matrix $`V`$ construct? <sup>2</sup>
+
+<img width="615" height="628" alt="Example 4.2.4 from [2]" src="https://github.com/user-attachments/assets/9a00b439-01ce-4525-9ef4-7c38782c53a2" />
+
 
 ### Steps to Compute Eigendecomposition <sup>Google AI Overview</sup>
 
@@ -46,6 +54,7 @@ where $`I`$ is the identity matrix.
 
 ## Reference
 1. [4.1 An introduction to eigenvalues and eigenvectors](https://understandinglinearalgebra.org/sec-eigen-intro.html)
-2. [Linear Algebra for AI: Part 7 — Eigen Decomposition](https://medium.com/@ebimsv/mastering-linear-algebra-part-7-eigen-decomposition-cf3c50308ba7)
-3. [Linear Algebra for AI: Part 1 — Introduction to Linear Algebra in Machine Learning](https://medium.com/@ebimsv/mastering-linear-algebra-part-1-introduction-to-linear-algebra-in-machine-learning-fafcae1a5879) (AAAA) [To Read]
-4. [Eigendecomposition: A Beginner's Guide to Matrix Factorization](https://www.datacamp.com/tutorial/eigendecomposition)
+2. [4.2 Finding eigenvalues and eigenvectors](https://understandinglinearalgebra.org/sec-eigen-find.html)
+3. [Linear Algebra for AI: Part 7 — Eigen Decomposition](https://medium.com/@ebimsv/mastering-linear-algebra-part-7-eigen-decomposition-cf3c50308ba7)
+4. [Linear Algebra for AI: Part 1 — Introduction to Linear Algebra in Machine Learning](https://medium.com/@ebimsv/mastering-linear-algebra-part-1-introduction-to-linear-algebra-in-machine-learning-fafcae1a5879) (AAAA) [To Read]
+5. [Eigendecomposition: A Beginner's Guide to Matrix Factorization](https://www.datacamp.com/tutorial/eigendecomposition)
