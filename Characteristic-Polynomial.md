@@ -17,11 +17,22 @@ $`A−λI_{n}`$, whose entries contain the unknown $`λ`$.
 
 ## Eigenvalues are roots of the characteristic polynomial <sup>[2]</sup>
 
-Theorem(Eigenvalues are roots of the characteristic polynomial) Let $`A`$ be an $`n×n`$ matrix, and let <br> 
+Theorem (Eigenvalues are roots of the characteristic polynomial): Let $`A`$ be an $`n×n`$ matrix, and let <br> 
 $`f(λ)=det(A−λI_{n})`$ be its characteristic polynomial. Then a number $`λ_{0}`$ is an eigenvalue of $`A`$ if and only if <br>
 $`f(λ_{0})=0`$.
 
+### Proof
 
+By the Invertible Matrix Theorem, the matrix equation 
+$`(A−λ_{0}I_{n})x=0`$ has a **nontrivial solution** if and only if $`det(A−λ_{0}I_{n})=0`$.
+Therefore, 
+ 
+$`λ_{0}`$ is an eigenvalue of A <br>
+$`\Longleftrightarrow`$ $`Ax=λ_{0}x`$ has a nontrivial solution <br>
+$`\Longleftrightarrow`$ $`(A−λ_{0}I_{n})x=0`$ has a nontrivial solution <br>
+$`\Longleftrightarrow`$ $`A−λ_{0}I_{n}`$ is not invertible <br>
+$`\Longleftrightarrow`$ $`det(A−λ_{0}I_{n})=0`$ <br>
+$`\Longleftrightarrow`$ $`f(λ_{0})=0`$.
 
 
 ## Properties of the Characteristic Polynomial
