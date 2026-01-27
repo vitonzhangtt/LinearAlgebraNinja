@@ -23,8 +23,8 @@ $`f(λ_{0})=0`$.
 
 ### Proof
 
-By the [Invertible Matrix Theorem](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Invertible-Matrix.md#invertible-matrix-theorem-1), the matrix equation 
-$`(A−λ_{0}I_{n})x=0`$ has a **nontrivial solution** if and only if $`det(A−λ_{0}I_{n})=0`$.
+By the [Invertible Matrix Theorem](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Invertible-Matrix.md#invertible-matrix-theorem-1), the matrix equation $`(A−λ_{0}I_{n})x=0`$ <br>
+has a **nontrivial solution** if and only if $`det(A−λ_{0}I_{n})=0`$.
 Therefore, 
  
 $`λ_{0}`$ is an eigenvalue of A <br>
