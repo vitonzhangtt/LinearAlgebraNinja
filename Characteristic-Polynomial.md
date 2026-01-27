@@ -34,7 +34,14 @@ $`\Longleftrightarrow`$ $`A−λ_{0}I_{n}`$ is not invertible <br>
 $`\Longleftrightarrow`$ $`det(A−λ_{0}I_{n})=0`$ <br>
 $`\Longleftrightarrow`$ $`f(λ_{0})=0`$.
 
-#### Nontrivial Solution 
+#### Nontrivial Solution in Linear Algebra <sup>Google AI Overview</sup>
+
+A **nontrivial solution** in linear algebra is any solution to a homogeneous system of <br>
+linear equations ($`Ax=0`$) where at least one variable in the solution vector $`x`$ <br>
+is **non-zero**. While the trivial solution ($`x=0`$) always satisfies $`Ax=0`$, <br>
+a nontrivial solution exists if and only if the matrix $`A`$ is **not invertible**, <br>
+the **rank** of $`A`$ is less than the number of variables, or there is at least one <br>
+free variable. 
 
 
 ## Properties of the Characteristic Polynomial
