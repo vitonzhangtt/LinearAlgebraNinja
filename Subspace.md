@@ -2,6 +2,8 @@
 
 ## Definition
 
+
+### Definition from [1]
 A subspace of a vector space $`V`$ is a subset $`U`$ of $`V`$ which
 
 1. contains the zero vector $`0_{v}`$,
@@ -11,5 +13,16 @@ A subspace of a vector space $`V`$ is a subset $`U`$ of $`V`$ which
 
 We write $`V \leq U`$ to mean that $`V`$ is a subspace of $`U`$.
 
+### Definition from [2]
+
+
+
+
+
+
+
+
+
 ## Reference
 1. [Subspaces](https://www.ucl.ac.uk/~ucahmto/0005_2021/Ch4.S4.html) [To Read]
+2. [2.6 Subspaces](https://textbooks.math.gatech.edu/ila/subspaces.html) from `Interactive Linear Algebra`
