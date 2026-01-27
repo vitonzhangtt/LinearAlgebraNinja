@@ -23,16 +23,18 @@ $`f(λ_{0})=0`$.
 
 ### Proof
 
-By the Invertible Matrix Theorem, the matrix equation 
+By the [Invertible Matrix Theorem](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Invertible-Matrix.md#invertible-matrix-theorem-1), the matrix equation 
 $`(A−λ_{0}I_{n})x=0`$ has a **nontrivial solution** if and only if $`det(A−λ_{0}I_{n})=0`$.
 Therefore, 
  
 $`λ_{0}`$ is an eigenvalue of A <br>
 $`\Longleftrightarrow`$ $`Ax=λ_{0}x`$ has a nontrivial solution <br>
-$`\Longleftrightarrow`$ $`(A−λ_{0}I_{n})x=0`$ has a nontrivial solution <br>
+$`\Longleftrightarrow`$ $`(A−λ_{0}I_{n})x=0`$ has a nontrivial solution (In other words $`Nul(A−λ_{0}I_{n}) \neq 0`$) <br>
 $`\Longleftrightarrow`$ $`A−λ_{0}I_{n}`$ is not invertible <br>
 $`\Longleftrightarrow`$ $`det(A−λ_{0}I_{n})=0`$ <br>
 $`\Longleftrightarrow`$ $`f(λ_{0})=0`$.
+
+#### Nontrivial Solution 
 
 
 ## Properties of the Characteristic Polynomial
