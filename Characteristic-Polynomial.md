@@ -44,7 +44,7 @@ the **rank** of $`A`$ is less than the number of variables, or there is at least
 free variable. 
 
 
-## Determinant and Eigenvalues
+## Determinant and Eigenvalues <sup>Google AI Overview</sup>
 
 The determinant of a **square** matrix $`A`$ of **order** $`n`$ is exactly equal to the product <br>
 of its $`n`$ eigenvalues.
@@ -89,10 +89,19 @@ involves analyzing the **characteristic polynomial**, $`p(\lambda )=\det (A-\lam
   This result holds for all **square matrices**, including those with repeated eigenvalues (multiplicity) and <br>
   those that are not diagonalizable.
 
+### Intuitive "Diagonal" Case 
+
+If a matrix is **diagonalizable**, the proof is even simpler. Such a matrix can be written <br>
+as $`A=PDP^{-1}`$, where $`D`$ is a **diagonal matrix** containing the eigenvalues. <br>
+Using the property that **the determinant of a product is the product of the determinants**: <br>
+$`\det (A)=\det (P)\det (D)\det (P^{-1})`$ <br>
+Since $`\det (P^{-1})=1/\det (P)`$, these terms <br>
+cancel out, leaving:$`\det (A)=\det (D)=\lambda _{1}\lambda _{2}\dots \lambda _{n}`$
+
 
 ## Properties of the Characteristic Polynomial
-
+TODO: [1]
 
 # Reference
-1. [Characteristic Equation: Everything You Need to Know for Data Science](https://www.datacamp.com/tutorial/characteristic-equation)
+1. [Characteristic Equation: Everything You Need to Know for Data Science](https://www.datacamp.com/tutorial/characteristic-equation) [To Read]
 2. [5.2The Characteristic Polynomial](https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html) from `Interactive Linear Algebra`
