@@ -68,14 +68,26 @@ $`\det (A)=\prod _{i=1}^{n}\lambda _{i}=\lambda _{1}\lambda _{2}\dots \lambda _{
 
 ### Step-by-step Proof
 
-The standard proof that the determinant of a matrix \(A\) equals the product of its eigenvalues involves analyzing the characteristic polynomial, \(p(\lambda )=\det (A-\lambda I)\). 
+The standard proof that the determinant of a matrix $`A`$ equals the product of its eigenvalues 
+involves analyzing the **characteristic polynomial**, $`p(\lambda )=\det (A-\lambda I)`$. 
 
-* Define the Characteristic Polynomial: For an \(n\times n\) matrix \(A\), the characteristic polynomial is given by:\(p(\lambda )=\det (A-\lambda I)\)The roots of this polynomial are the eigenvalues (\(\lambda _{1},\lambda _{2},\dots ,\lambda _{n}\)) of the matrix \(A\).
-* Factor the Polynomial: According to the Fundamental Theorem of Algebra, any polynomial of degree \(n\) can be factored into \(n\) linear factors using its roots:\(p(\lambda )=(c)(\lambda _{1}-\lambda )(\lambda _{2}-\lambda )\dots (\lambda _{n}-\lambda )\)In the specific expansion of \(\det (A-\lambda I)\), the leading coefficient \(c\) is always 1 (if defined as \(|\lambda I-A|\)) or depends on \((-1)^{n}\) (if defined as \(|A-\lambda I|\)). Let's use the form:\(p(\lambda )=(\lambda _{1}-\lambda )(\lambda _{2}-\lambda )\dots (\lambda _{n}-\lambda )\)
-* Evaluate at \(\lambda =0\): To find the relationship between the determinant and the eigenvalues, we evaluate the   polynomial at \(\lambda =0\):
-  * From the definition: \(p(0)=\det (A-0\cdot I)=\det (A)\).
-  * From the factored form: \(p(0)=(\lambda _{1}-0)(\lambda _{2}-0)\dots (\lambda _{n}-0)=\lambda _{1}\lambda _{2}\dots \lambda _{n}\).
-* Conclusion: Since both expressions equal \(p(0)\), we conclude:\(\det (A)=\prod _{i=1}^{n}\lambda _{i}\)This result holds for all square matrices, including those with repeated eigenvalues (multiplicity) and those that are not diagonalizable.
+* Define the Characteristic Polynomial: For an $`n\times n`$ matrix $`A`$, the characteristic <br>
+  polynomial is given by: <br>
+  $`p(\lambda )=\det (A-\lambda I)`$ <br>
+  The roots of this polynomial are the eigenvalues ($`\lambda _{1},\lambda _{2},\dots ,\lambda _{n}`$) of the matrix $`A`$.
+* Factor the Polynomial: According to the **Fundamental Theorem of Algebra**(FTA), any <br>
+  polynomial of degree $`n`$ can be factored into $`n`$ linear factors using **its roots**: <br>
+  $`p(\lambda )=(c)(\lambda _{1}-\lambda )(\lambda _{2}-\lambda )\dots (\lambda _{n}-\lambda )`$ <br>
+  In the specific expansion of $`\det (A-\lambda I)`$, the leading coefficient $`c`$ is always 1 <br>
+  (if defined as $`|\lambda I-A|`$) or depends on $`(-1)^{n}`$ (if defined as $`|A-\lambda I|`$). <br>
+  Let's use the form:$`p(\lambda )=(\lambda _{1}-\lambda )(\lambda _{2}-\lambda )\dots (\lambda _{n}-\lambda )`$
+* Evaluate at $`\lambda =0`$: To find the relationship between the determinant and the eigenvalues, <br>
+  we evaluate the polynomial at $`\lambda =0`$:
+  * From the definition: $`p(0)=\det (A-0\cdot I)=\det (A)`$.
+  * From the factored form: $`p(0)=(\lambda _{1}-0)(\lambda _{2}-0)\dots (\lambda _{n}-0)=\lambda _{1}\lambda _{2}\dots \lambda _{n}`$.
+* Conclusion: Since both expressions equal $`p(0)`$, we conclude:$`\det (A)=\prod _{i=1}^{n}\lambda _{i}`$ <br>
+  This result holds for all **square matrices**, including those with repeated eigenvalues (multiplicity) and <br>
+  those that are not diagonalizable.
 
 
 ## Properties of the Characteristic Polynomial
