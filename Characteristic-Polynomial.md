@@ -75,7 +75,7 @@ involves analyzing the **characteristic polynomial**, $`p(\lambda )=\det (A-\lam
   polynomial is given by: <br>
   $`p(\lambda )=\det (A-\lambda I)`$ <br>
   The roots of this polynomial are the eigenvalues ($`\lambda _{1},\lambda _{2},\dots ,\lambda _{n}`$) of the matrix $`A`$.
-* Factor the Polynomial: According to the **Fundamental Theorem of Algebra**(FTA), any <br>
+* Factor the Polynomial: According to the **Fundamental Theorem of Algebra** [FTA](https://github.com/vitonzhangtt/MathNinja/blob/main/Fundamental-Theorem-of-Algebra.md), any <br>
   polynomial of degree $`n`$ can be factored into $`n`$ linear factors using **its roots**: <br>
   $`p(\lambda )=(c)(\lambda _{1}-\lambda )(\lambda _{2}-\lambda )\dots (\lambda _{n}-\lambda )`$ <br>
   In the specific expansion of $`\det (A-\lambda I)`$, the leading coefficient $`c`$ is always 1 <br>
