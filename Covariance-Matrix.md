@@ -25,3 +25,4 @@ elements contain the **covariances** between each pair of variables.
 1. [Covariance Matrix](https://www.cuemath.com/algebra/covariance-matrix/)
 2. [Covariance Matrix Explained With Pictures](https://thekalmanfilter.com/covariance-matrix-explained/) [To Read]
 3. [A geometric interpretation of the covariance](https://users.cs.utah.edu/~tch/CS4640F2019/resources/A%20geometric%20interpretation%20of%20the%20covariance%20matrix.pdf)
+4. [Visualizing Covariance Matrices](https://zhiting.ucsd.edu/teaching/dsc140bwinter2024/assets/lectures/dsc140bwinter2024-lecture10-pca.pdf)
