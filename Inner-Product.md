@@ -1,0 +1,41 @@
+# Inner Product
+
+
+# Inner Product Space
+
+## Google AI Overview
+
+An inner product space is a **vector space** (real or complex) paired with a **function**—the **inner product**—that <br>
+assigns **a scalar** to each pair of vectors, enabling the calculation of vector **lengths, angles, and orthogonality**. <br>
+It **generalizes** the **Euclidean dot product**, defined by **linearity**, **symmetry** (conjugate symmetry for complex <br>
+spaces), and **positive-definiteness** ($`\langle v, v \rangle \ge 0`$).
+
+### Key Properties
+
+* Linearity: $`\langle au+bv, w \rangle = a\langle u + w \rangle+b\langle v+w \rangle`$
+* Symmetry/Hermitian: $`\langle v, u \rangle = \overline{\langle v, u \rangle}`$ (for real spaces,
+  $`\langle v, u \rangle = \langle u, v \rangle`$).
+* Positive Definiteness: $`\langle v, v \rangle \ge 0`$, and $`\langle v, v \rangle = 0`$ if and only if $`v = 0`$.
+* Induced Norm (Length): $`\Vert v \Vert = \sqrt{\langle v, v \rangle}`$.
+* Distance: $`d(u, v) = \Vert u-v \Vert = \sqrt{\langle u-v, u-v \rangle}`$
+
+
+
+
+
+
+
+
+
+
+
+
+Inner product spaces are foundational in **functional analysis** (specifically **Hilbert spaces**) for defining <br>
+orthogonality, allowing for projections and Fourier series analysis.
+
+## vs. Hilbert Spaces
+
+
+
+# Reference
+1. [6.1 Inner Products](https://dusolution.wordpress.com/wp-content/uploads/2015/06/elementary_linear_algebra_10th_edition.pdf) from Book: `Elementary Linear Algebra 10th 2010` 
