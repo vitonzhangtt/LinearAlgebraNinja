@@ -5,7 +5,7 @@
 A positive semi-definite (PSD) matrix/metric is a real symmetric (or **Hermitian**) matrix $`A`$ where the <br>
 quadratic form $`x^TAx \ge 0`$ for all vectors $`x`$. **Key characteristics** include **non-negative eigenvalues** <br>
 ($`\lambda_i \ge 0`$) and the ability to be decomposed as $`A = B^TB`$. Unlike positive definite matrices, PSD <br>
-matrices can have a zero determinant and singular values. <>Google AI Overview</sup>
+matrices can have a zero determinant and singular values. <sup>Google AI Overview</sup>
 
 ## Key Characteristics & Properties
 
