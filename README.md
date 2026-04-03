@@ -12,6 +12,7 @@ Record the notes when learning the Linear Algebra.
 6. Video: [Essence of linear algebra by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 7. [Math111 L2: Linear Algebra](https://www.math.hkust.edu.hk/~mabfchen/Math111/) from **hkust**
 8. video: [Advanced Linear Algebra](https://www.youtube.com/playlist?list=PLOAf1ViVP13jdhvy-wVS7aR02xnDxueuL)
+9. CIS 5150, fall 2025: [Fundamentals of Linear Algebra and Optimization](https://www.cis.upenn.edu/~cis5150/)
 
 ### Books
 
