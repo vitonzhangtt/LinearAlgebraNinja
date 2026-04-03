@@ -48,9 +48,16 @@ myers@cs.utexas.edu
 
 October 11, 2023
 
+#### [Comprehensive Introduction to Linear Algebra](https://cseweb.ucsd.edu/~gill/CILASite/)
+
+#### [MULTILINEAR ALGEBRA](https://cseweb.ucsd.edu/~gill/CILASite/)
+
+## Multilinear Algebra
 
 
 ## Abstract Linear Algebra
+
+
 
 ### Courses
 1. [Math 416, Abstract Linear Algebra](https://nmd.web.illinois.edu/classes/2018/416/index.html) (AAAA+) [To Read]
