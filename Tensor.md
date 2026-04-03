@@ -32,7 +32,7 @@ and **strain**.
 * Tensors: Geometry and Applications by J.M. Landsberg (AMS): Useful for applications of multilinear algebra in geometry.
 * Finite Dimensional Multilinear Algebra by Marvin Marcus: Available in two parts, covering foundational aspects
 
-## Definition
+## Definition of Tensor
 
 Tensors are used in many fields, such as, Neural Networks, Continuum Mechanics or even General Relativity; <br>
 and while tensors are a quite general concept, depending on which field you apply them, you may come across <br>
@@ -44,21 +44,35 @@ A type $`(p,q)`$ tensor $`T`$ is defined as a **multi-linear map**
 
 <img width="397" height="69" alt="" src="https://github.com/user-attachments/assets/416c44d1-bc39-44ae-bc7d-6e11dc14adb0" />
 
-Where V is a **vector space** (also called **linear space**) over a **field** F, and $`V^*`$ is its corresponding <br>
+Where $`V`$ is a **vector space** (also called **linear space**) over a **field** F, and $`V^*`$ is its corresponding <br>
 [**dual space**](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Tensor.md#dual-space-%E5%AF%B9%E5%81%B6%E7%A9%BA%E9%97%B4). (Note that while $`F`$ is oftentimes the set of real numbers $`R`$, it could well be the rationals <br>
 $`Q`$ or complex numbers $`C`$)
+
+where $`q`$ is called the **covariant** order and $`p`$ is called the **contravariant** order of $`T`$. <sup>11.1 DEFINITIONS@[7]</sup>
 
 The literal way of saying the above is:
 Tensor is a collection of **vectors** and **covectors** combined together using the tensor product.
 
-
-
-### Multilinear Map (多重线性映射)
-
+### Covariant and Contravariant
 
 
 
 
+### Multilinear Map (多重线性映射) <sup>[7]</sup>
+
+A **multilinear map** is a **function** of several variables that is linear in each variable independently, <br>
+generalizing linear and **bilinear maps**. It takes inputs from multiple vector spaces (e.g., $`V_1, V_2, ..., V_k`$) <br> 
+and maps them to a final space ($`W`$). It is "linear in each coordinate," meaning if you fix all variables <br>
+except one, the mapping is linear.
+
+#### Definition
+
+For a map $`f: V_1 \times ... \times V_k \rightarrow W`$, $`f`$ is multilinear if  
+
+$`f(v_1, ..., \lambda v_i + \mu {v^{\prime}}_i, ..., v_k) = \lambda f(v_1, ..., v_i, ..., v_k) + \mu f(v_1, ..., {v^{\prime}}_i, ..., v_k)`$ for any $`i`$.
+
+#### Key Aspects of Multilinear Maps
+* Linearity vs. Multilinearity: If a function has only one input ($`k=1`$), it is a standard linear map.
 
 
 
@@ -140,6 +154,8 @@ Then any functional $`\varphi`$ can be written as a linear combination of the du
 4. [Tensor](https://mathworld.wolfram.com/Tensor.html)
 5. video: [Vector Calculus: Lecture 25/29 - Multilinear Maps, The Tensor Quotient Rule](https://www.youtube.com/watch?v=OuuvkdUGPtk)
 6. video: [Vector Calculus Lectures](https://www.youtube.com/playlist?list=PLC0PGB2LK3Rhijc9H3Ijx2dGrAYB0F-lk)
-7. [Multilinear Mappings and Tensors](https://cseweb.ucsd.edu/~gill/CILASite/Resources/15Chap11.pdf)
+7. [Multilinear Mappings and Tensors](https://cseweb.ucsd.edu/~gill/CILASite/Resources/15Chap11.pdf) [To Read]
+8. [CHAPTER 1 MULTILINEAR ALGEBRA](https://math.mit.edu/classes/18.952/2015SP/docs/chapter1.pdf) [To Read]
+
 
 
