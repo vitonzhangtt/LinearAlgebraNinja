@@ -45,7 +45,7 @@ A type $`(p,q)`$ tensor $`T`$ is defined as a **multi-linear map**
 <img width="397" height="69" alt="" src="https://github.com/user-attachments/assets/416c44d1-bc39-44ae-bc7d-6e11dc14adb0" />
 
 Where V is a **vector space** (also called **linear space**) over a **field** F, and $`V^*`$ is its corresponding <br>
-**dual space**. (Note that while $`F`$ is oftentimes the set of real numbers $`R`$, it could well be the rationals <br>
+[**dual space**](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Tensor.md#dual-space-%E5%AF%B9%E5%81%B6%E7%A9%BA%E9%97%B4). (Note that while $`F`$ is oftentimes the set of real numbers $`R`$, it could well be the rationals <br>
 $`Q`$ or complex numbers $`C`$)
 
 The literal way of saying the above is:
@@ -54,6 +54,12 @@ Tensor is a collection of **vectors** and **covectors** combined together using 
 
 
 ### Multilinear Map (多重线性映射)
+
+
+
+
+
+
 
 
 ### Dual Space (对偶空间)
@@ -132,6 +138,8 @@ Then any functional $`\varphi`$ can be written as a linear combination of the du
 2. Book: [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
 3. [Dual spaces, dual vectors and dual basis](https://ekamperi.github.io/mathematics/2019/11/17/dual-spaces-and-dual-vectors.html)
 4. [Tensor](https://mathworld.wolfram.com/Tensor.html)
-
+5. video: [Vector Calculus: Lecture 25/29 - Multilinear Maps, The Tensor Quotient Rule](https://www.youtube.com/watch?v=OuuvkdUGPtk)
+6. video: [Vector Calculus Lectures](https://www.youtube.com/playlist?list=PLC0PGB2LK3Rhijc9H3Ijx2dGrAYB0F-lk)
+7. [Multilinear Mappings and Tensors](https://cseweb.ucsd.edu/~gill/CILASite/Resources/15Chap11.pdf)
 
 
