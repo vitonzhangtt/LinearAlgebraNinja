@@ -53,6 +53,22 @@ where $`q`$ is called the **covariant** order and $`p`$ is called the **contrava
 The literal way of saying the above is:
 Tensor is a collection of **vectors** and **covectors** combined together using the tensor product.
 
+### (p, q) Tensor
+
+The $`(p, q)`$ classification of a tensor defines its type based on the number of **contravariant** (upper, $`p`$) <br>
+and **covariant** (lower, $`q`$) indices it possesses. This classification, often referred to as the <br>
+tensor's "type," "valence," or "rank" (specifically, type $`(p, q)`$ means a total rank of $`p + q`$), dictates <br>
+how the tensor's components change under coordinate transformations. <sup>Google AI Overview</sup>
+
+#### Understanding $`(p, q)`$ Classification
+
+* $`p`$ (Contravariant Indices - Upper): These indices indicate how the tensor transforms like a vector <br>
+  (e.g., coordinate differentials $`dx^{\mu}`$).
+* $`q`$ (Covariant Indices - Lower): These indices indicate how the tensor transforms like a **dual vector** <br>
+  or **covector** (e.g., gradient $``$).
+* Total Order/Rank: The total number of indices is $`n = p+q`$, often described as the dimension of the <br>
+  multi-dimensional array representing the tensor.
+
 ### Covariant and Contravariant
 
 
@@ -156,6 +172,7 @@ Then any functional $`\varphi`$ can be written as a linear combination of the du
 6. video: [Vector Calculus Lectures](https://www.youtube.com/playlist?list=PLC0PGB2LK3Rhijc9H3Ijx2dGrAYB0F-lk)
 7. [Multilinear Mappings and Tensors](https://cseweb.ucsd.edu/~gill/CILASite/Resources/15Chap11.pdf) [To Read]
 8. [CHAPTER 1 MULTILINEAR ALGEBRA](https://math.mit.edu/classes/18.952/2015SP/docs/chapter1.pdf) [To Read]
+9. [](https://www.youtube.com/watch?v=W4oQ8LisNn4&t=430)
 
 
 
