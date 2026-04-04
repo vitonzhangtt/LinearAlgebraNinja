@@ -75,7 +75,7 @@ how the tensor's components change under coordinate transformations. <sup>Google
   under coordinate transformation.
 * Type (1,0) - Contravariant Vector: A rank 1 tensor, such as velocity, with one upper index ($`v^i`$).
 * Type (0,1) - Covariant Vector (Covector): A rank 1 tensor, such as a **gradient**, with one lower index ($`\omega_i`$).
-* Type (1,1) - Mixed Tensor: A rank 2 tensor, such as the **Kronecker delta** $`\delta_{j]^{j}`$  or a linear <br>
+* Type (1,1) - Mixed Tensor: A rank 2 tensor, such as the **Kronecker delta** $`\delta_{j}^{j}`$  or a linear <br>
   operator, with one upper and one lower index.
 * Type (0,2) - Covariant Tensor: A rank 2 tensor, such as the metric tensor $`g_{ij}`$
 
