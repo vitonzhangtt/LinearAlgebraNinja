@@ -65,13 +65,62 @@ how the tensor's components change under coordinate transformations. <sup>Google
 * $`p`$ (Contravariant Indices - Upper): These indices indicate how the tensor transforms like a vector <br>
   (e.g., coordinate differentials $`dx^{\mu}`$).
 * $`q`$ (Covariant Indices - Lower): These indices indicate how the tensor transforms like a **dual vector** <br>
-  or **covector** (e.g., gradient $``$).
+  or **covector** (e.g., gradient $`\partial_{\mu} f`$).
 * Total Order/Rank: The total number of indices is $`n = p+q`$, often described as the dimension of the <br>
   multi-dimensional array representing the tensor.
 
+#### Examples of $`(p, q)`$ Tensors
+
+* Type (0,0) - Scalar: A rank 0 tensor, such as temperature, which is a single number and does not change <br>
+  under coordinate transformation.
+* Type (1,0) - Contravariant Vector: A rank 1 tensor, such as velocity, with one upper index ($`v^i`$).
+* Type (0,1) - Covariant Vector (Covector): A rank 1 tensor, such as a **gradient**, with one lower index ($`\omega_i`$).
+* Type (1,1) - Mixed Tensor: A rank 2 tensor, such as the **Kronecker delta** $`\delta_{j]^{j}`$  or a linear <br>
+  operator, with one upper and one lower index.
+* Type (0,2) - Covariant Tensor: A rank 2 tensor, such as the metric tensor $`g_{ij}`$
+
+
+#### Key Concepts for Mastering $`(p,q)`$ Classification
+
+* Transformation Law: A $`(p, q)`$ tensor transforms using the Jacobian matrix ($`p`$ times for components, <br>
+$`q`$ times for coordinates).
+* Raising and Lowering Indices: You can change the $`(p, q)`$ type of a tensor using the metric tensor $`g_{ij}`$ <br>
+  (or its inverse $`g^{ij}`$) without changing the underlying geometric object.
+* Tensor Product: The combination of a type $`(p, q)`$ tensor and a type $`(r, s)`$ tensor results in a type <br>
+  $`(p+r, q+s)`$ tensor.
+* Contracting Indices: Summing over one upper and one lower index ($`T_{ij}^{i} = V_j`$) reduces the tensor type <br>
+  by (1,1), resulting in a type $`(p-1,q-1)`$ tensor.
+* Physical Meaning: Tensors describe physical, coordinate-independent relationships. The $`(p, q)`$ labels help <br>
+  ensure that the equations formulated are consistent in different coordinate systems (e.g., general relativity).
+
+
 ### Covariant and Contravariant
 
+In general terms, **covariance**(协变性) describes things that change together in the same direction as a <br>
+reference, while **contravariance**(逆变性) describes things that change in the opposite direction. The meaning <br>
+of these terms shifts depending on whether you are looking at them through the lens of physics/mathematics <br>
+or computer science.
 
+In **linear algebra** and **differential geometry**, these terms describe **how the components of a vector** <br>
+**change when you change your basis (coordinate system)**.
+
+Transformation Law: If a coordinate system transforms via $`M`$, contravariant vectors transform by $`M^{-1}`$, <br>
+and covariant vectors transform by $`M`$.
+
+
+#### Contravariance (Upper Indices, e.g., $`V^i`$):
+
+* Definition: Components that transform using **the inverse of the basis change matrix**.
+* Analogy: If you shrink your ruler (the basis), the number of units you measure (the components) must <br>
+  increase to keep the physical object the same length.
+* Examples: Position, velocity, and displacement. These are often what people mean when they simply say "vector."
+
+#### Covariance (Lower Indices, e.g., $`W_i`$):
+
+* Definition: Components that transform using the same matrix as the basis change.
+* Analogy: These vary "with" the basis. If the basis vectors get longer, the covariant components <br>
+  also "scale up" accordingly.
+* Examples: Gradients and "one-forms" (or covectors). A gradient $`\frac{\partial \phi}{\partial x^i}`$ naturally has its index downstairs.
 
 
 ### Multilinear Map (多重线性映射) <sup>[7]</sup>
@@ -89,8 +138,12 @@ $`f(v_1, ..., \lambda v_i + \mu {v^{\prime}}_i, ..., v_k) = \lambda f(v_1, ..., 
 
 #### Key Aspects of Multilinear Maps
 * Linearity vs. Multilinearity: If a function has only one input ($`k=1`$), it is a standard linear map.
-
-
+* Tensors: A multilinear map can be viewed as a tensor, particularly when mapping into a field ($`W = F`$), <br>
+  where it is termed an $`r`$-tensor or multilinear form.
+* Determinant Example: The determinant of a matrix is a key example, acting as an alternating multilinear map
+  on the rows (or columns) of the matrix.
+* Applications: These maps are fundamental in **multilinear algebra**, **differential geometry (tensors)**, and
+  **advanced cryptography**.
 
 ### Dual Space (对偶空间)
 
@@ -172,7 +225,9 @@ Then any functional $`\varphi`$ can be written as a linear combination of the du
 6. video: [Vector Calculus Lectures](https://www.youtube.com/playlist?list=PLC0PGB2LK3Rhijc9H3Ijx2dGrAYB0F-lk)
 7. [Multilinear Mappings and Tensors](https://cseweb.ucsd.edu/~gill/CILASite/Resources/15Chap11.pdf) [To Read]
 8. [CHAPTER 1 MULTILINEAR ALGEBRA](https://math.mit.edu/classes/18.952/2015SP/docs/chapter1.pdf) [To Read]
-9. [](https://www.youtube.com/watch?v=W4oQ8LisNn4&t=430)
+9. video: [What is a Tensor? An Animated Introduction!](https://www.youtube.com/watch?v=W4oQ8LisNn4&t=430)
+10. video: [Understand Tensors Like a Physicist! (The Easy Way)](https://www.youtube.com/watch?v=czrel_yqJYM)
+11. [Covariant and Contravariant Tensors](https://rinterested.github.io/statistics/tensors2.html)
 
 
 
