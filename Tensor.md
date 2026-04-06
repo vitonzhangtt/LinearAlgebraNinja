@@ -229,6 +229,7 @@ Then any functional $`\varphi`$ can be written as a linear combination of the du
 10. video: [Understand Tensors Like a Physicist! (The Easy Way)](https://www.youtube.com/watch?v=czrel_yqJYM)
 11. [Covariant and Contravariant Tensors](https://rinterested.github.io/statistics/tensors2.html)
 12. video: [Tensor Calculus](https://www.youtube.com/playlist?list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS)
+13. video: [Dual vectors | Tensor algebra episode 2](https://www.youtube.com/watch?v=wNO7nrhwQoY) | [Tensor Algebra](https://www.youtube.com/playlist?list=PLffJUy1BnWj3uRN-lL7idX8mQeifZaqwn)
 
 
 
