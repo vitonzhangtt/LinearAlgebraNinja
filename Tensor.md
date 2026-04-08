@@ -50,7 +50,7 @@ $`Q`$ or complex numbers $`C`$)
 
 where $`q`$ is called the **covariant** order and $`p`$ is called the **contravariant** order of $`T`$. <sup>11.1 DEFINITIONS@[7]</sup>
 
-$`\rightarrow F`$: The output of this function is always a **scalar** belonging to the [**field**]() $`F`$.
+$`\rightarrow F`$: The output of this function is always a **scalar** belonging to the [**field**](https://github.com/vitonzhangtt/MathNinja/blob/main/Field-Theory.md) $`F`$.
 
 
 The literal way of saying the above is:
