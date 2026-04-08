@@ -50,8 +50,11 @@ $`Q`$ or complex numbers $`C`$)
 
 where $`q`$ is called the **covariant** order and $`p`$ is called the **contravariant** order of $`T`$. <sup>11.1 DEFINITIONS@[7]</sup>
 
+$`\rightarrow F`$: The output of this function is always a **scalar** belonging to the [**field**]() $`F`$.
+
+
 The literal way of saying the above is:
-Tensor is a collection of **vectors** and **covectors** combined together using the tensor product.
+Tensor is a collection of **vectors** and **covectors** combined together using the [tensor product](https://github.com/vitonzhangtt/DifferentialGeometryNinja/blob/main/Tensor-Product.md).
 
 ### (p, q) Tensor
 
