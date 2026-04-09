@@ -16,6 +16,7 @@ Power function is a function which has a variable as the base and a constant as 
 $`f(x)=x^a`$.
 
 ### Power Series Expansion <sup>[6]</sup>
+
 $`e^x=\displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}`$
 
 ## Why we need matrix exponential?
@@ -27,7 +28,9 @@ the matrix exponential gives the **exponential map** between a **matrix Lie alge
 
 
 ## Matrix Exponential <sup>Ref[8]</sup>
+
 The exponential of a square matrix A is defined by the power series: <br>
+
 $`e^A=I+A+\frac{A^2}{2!}+\frac{A^3}{3!}+\dots`$ <br>
 
 Let $`A^0=I`$, then
