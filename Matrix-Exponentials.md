@@ -52,11 +52,11 @@ For first, $`tA`$ and $`sA`$ are commute(i.e. $`tA \times sA = sA \times tA`$), 
 
 For second, $`A`$ and $`-A`$ are commute, $`e^{A}e^{-A} = e^{A+(-A)}=e^{0_{n \times n}}= I_{n}`$, so $`(e^A)^{−1} = e^{−A}`$ hold.
 
-### Theorem 2<sup>Ref[1]</sup>: $`(e^A)^T=e^{A^T} \text{ for any } n \times n \text{ matrix } A`$
+### Theorem 2<sup>[1]</sup>: $`(e^A)^T=e^{A^T} \text{ for any } n \times n \text{ matrix } A`$
 $`A^T`$ is transpose of matrix $`A`$.
 
 #### Proof
-Accroding to properties of transpose <sup>Ref[10]</sup>, we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
+Accroding to [properties of transpose](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#properties-of-transpose), we have $`(A^n)^T = (A^T)^n`$ and $`(A+B)^T=A^T+B^T`$ then <br>
 $`e^{A^T}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^T)}^n}{n!}=\displaystyle\sum_{n=0}^{\infty} \frac{{(A^n)}^T}{n!}=(\displaystyle{\sum_{n=0}^{\infty} \frac{(A^n)}{n!}})^T=(e^A)^T`$
 
 ### Property B: The Matrix Exponential of a [Diagonal Matrix](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#diagonal-matrix) 
