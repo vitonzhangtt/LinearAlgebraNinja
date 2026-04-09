@@ -1,6 +1,6 @@
 # Matrix Exponentials ($`e^A`$)
 
-## Exponential Function <sup>Ref[2] Ref[3]</sup>
+## Exponential Function <sup>[2],[3]</sup>
 The exponential function is a type of mathematical function which are helpful <br>
 in finding the growth or decay of population, money, price, etc that are <br> 
 growing or decay exponentially. 
@@ -11,14 +11,19 @@ $`f(x)=cb^x`$ <br>
 When $`c=1, b=e`$, we get the following: <br>
 $`f(x)=e^x`$
 
-### Power function <sup>Ref[2]</sup>
+### Power function <sup>[2]</sup>
 Power function is a function which has a variable as the base and a constant as the exponent, 
 $`f(x)=x^a`$.
 
-### Power Series Expansion <sup>Ref[6]</sup>
+### Power Series Expansion <sup>[6]</sup>
 $`e^x=\displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}`$
 
 ## Why we need matrix exponential?
+
+In mathematics, the **matrix exponential** is a matrix function on **square matrices** analogous to the ordinary
+exponential function. It is used to solve systems of linear differential equations. In the theory of Lie groups, 
+the matrix exponential gives the **exponential map** between a **matrix Lie algebra** and the corresponding 
+**Lie group**. <sup>[5]</sup>
 
 
 ## Matrix Exponential <sup>Ref[8]</sup>
@@ -195,7 +200,7 @@ Note: **expm** command in MATLAB.
 2. [Exponential Function](https://www.cuemath.com/calculus/exponential-functions/)
 3. [The exponential function](https://mathinsight.org/exponential_function)
 4. [The Matrix Exponential](https://nesinkoyleri.org/wp-content/uploads/2021/07/Exponential.pdf)
-5. [wiki: Matrix_exponential](https://en.wikipedia.org/wiki/Matrix_exponential)
+5. wiki: [Matrix_exponential](https://en.wikipedia.org/wiki/Matrix_exponential)
 6. [Power Series Expansion for Exponential Function](https://proofwiki.org/wiki/Power_Series_Expansion_for_Exponential_Function)
 7. [7.8 Matrix exponentials](https://web.uvic.ca/~tbazett/diffyqs/sec_matexp.html)
 8. [What Is the Matrix Exponential? (To Read)](https://nhigham.com/2020/05/28/what-is-the-matrix-exponential/)
@@ -205,4 +210,5 @@ Note: **expm** command in MATLAB.
 12. [The Matrix Exponential $`e^{tA}`$.](https://www.youtube.com/watch?v=WSt9R66U6Po)
 13. [How (and why) to raise e to the power of a matrix | DE6](https://www.youtube.com/watch?v=O85OWBJ2ayo)
 14. [Rotations, SO(3) and so(3)](https://www.youtube.com/watch?v=uILYfubYxd0)
+15. [Chapter 2: The Matrix Exponential](https://www.shionfukuzawa.com/posts/22-11-26-lglar-ch2/)
 
