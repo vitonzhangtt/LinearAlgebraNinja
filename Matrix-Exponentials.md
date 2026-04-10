@@ -1,6 +1,6 @@
 # Matrix Exponentials ($`e^A`$)
 
-The matrix exponential is the map that takes a tangent vector $`X`$ from the **Lie algebra** and "wraps" it back onto the group $`G`$ to recover a point on the path $`A(t)`$.
+The matrix exponential is the map that takes a tangent vector $`X`$ from the [**Lie algebra**](https://github.com/vitonzhangtt/MathNinja/blob/main/Lie-Group.md#tangent-space-and-the-lie-algebra) and "wraps" it back onto the group $`G`$ to recover a point on the path $`A(t)`$.
 
 
 ## Exponential Function <sup>[2],[3]</sup>
@@ -202,7 +202,7 @@ Note: **expm** command in MATLAB.
 
 ## Compute matrix exponential of $`SO(2)`$ Generator
 
-Let's compute the matrix exponential for the $`SO(2)`$ [**generator**](). This is a classic example because it uses the Taylor series to derive the familiar rotation matrix.
+Let's compute the matrix exponential for the $`SO(2)`$ [**generator**](https://github.com/vitonzhangtt/MathNinja/blob/main/Lie-Group.md#generators-of-lie-groups-2). This is a classic example because it uses the Taylor series to derive the familiar rotation matrix.
 
 Given the generator <img width="125" height="56" alt="" src="https://github.com/user-attachments/assets/67ac4233-e199-4a2e-9dec-ed6e29e790df" />, we want to compute $`exp(\thetaJ)`$.
 
