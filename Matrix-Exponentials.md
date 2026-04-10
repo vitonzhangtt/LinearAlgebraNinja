@@ -1,5 +1,8 @@
 # Matrix Exponentials ($`e^A`$)
 
+The matrix exponential is the map that takes a tangent vector $`X`$ from the **Lie algebra** and "wraps" it back onto the group $`G`$ to recover a point on the path $`A(t)`$.
+
+
 ## Exponential Function <sup>[2],[3]</sup>
 The exponential function is a type of mathematical function which are helpful <br>
 in finding the growth or decay of population, money, price, etc that are <br> 
@@ -27,13 +30,14 @@ the matrix exponential gives the **exponential map** between a **matrix Lie alge
 **Lie group**. <sup>[5]</sup>
 
 
-## Matrix Exponential <sup>Ref[8]</sup>
+## Matrix Exponential <sup>[8]</sup>
 
 The exponential of a square matrix A is defined by the power series: <br>
 
 $`e^A=I+A+\frac{A^2}{2!}+\frac{A^3}{3!}+\dots`$ <br>
 
 Let $`A^0=I`$, then
+
 $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$  
 
 ### Definition as limit
@@ -42,7 +46,7 @@ $`e^A=\displaystyle\sum_{n=0}^{\infty} \frac{A^n}{n!}`$
 By **Jacobi's formula**, for any complex square matrix the following trace identity holds: <br>
 $`det(e^A)=e^{tr(A)}`$
 
-### Theorem 1 <sup>Ref[1]</sup>
+### Theorem 1 <sup>[1]</sup>
 If $`AB = BA`$, then $`e^{A}e^{B} = e^{A+B}`$.
 
 #### Corollary 1 
@@ -112,15 +116,15 @@ e^M=
       \end{pmatrix} 
 `$ 
 
-#### Proof <sup>Ref[11]</sup>
+#### Proof <sup>[11]</sup>
 
-### Theorem 3 <sup>Ref[1]</sup>
+### Theorem 3 <sup>[1]</sup>
 Let $`A`$ be an $`n \times n`$ matrix. Then
 1. If $`λ`$ is an eigenvalue for $`A`$, then $`e^λ`$ is an eigenvalue for $`e^A`$.
 2. More precisely, if $`\vec{v}`$ is an eigenvector for $`A`$ with eigenvalue $`λ`$, then $`\vec{v}`$ is an <br>
 eigenvector for $`e^A`$ with eigenvalue $`e^λ`$.
 
-## Rotations as matrix exponentials <sup>Ref[1]</sup>
+## Rotations as matrix exponentials <sup>[1]</sup>
 
 Using matrix exponentials represent rotation. <br>
 An $`{n × n}`$ matrix is called **[skew-symmetric](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Concepts.md#skew-symmetric-matrix)** if $`A^T = −A`$.
@@ -196,7 +200,48 @@ e^{θA} = exp(\frac{3\pi}{20} \times
 
 Note: **expm** command in MATLAB.
 
-## Eigenvalue and eigenvector <sup>Ref[14]</sup>
+## Compute matrix exponential of $`SO(2)`$ Generator
+
+Let's compute the matrix exponential for the $`SO(2)`$ [**generator**](). This is a classic example because it uses the Taylor series to derive the familiar rotation matrix.
+
+Given the generator <img width="125" height="56" alt="" src="https://github.com/user-attachments/assets/67ac4233-e199-4a2e-9dec-ed6e29e790df" />, we want to compute $`exp(\thetaJ)`$.
+
+### 1. Identify Powers of $`J`$
+
+First, observe the pattern of the powers of $`J`$:
+
+<img width="633" height="286" alt="" src="https://github.com/user-attachments/assets/1910657b-98f8-46eb-81d2-946e07c98f07" />
+
+### 2. Plug into the [Taylor Series]()
+
+The definition is 
+<img width="177" height="44" alt="" src="https://github.com/user-attachments/assets/18f64832-ef1e-4e0c-969a-847f9616a5d4" />. Grouping the terms by $`I`$ and $`J`$:
+
+<img width="507" height="62" alt="" src="https://github.com/user-attachments/assets/a4533cb6-bac4-427c-9132-b39e52d13285" />
+
+### 3. Recognize the Trigonometric Series
+
+The terms in the parentheses are the exact Taylor series for $`sine`$ and $`cosine`$:
+
+<img width="236" height="96" alt="" src="https://github.com/user-attachments/assets/6c64dcfd-5db7-4a93-bc09-01d14798b574" />
+
+So, the result is:
+
+<img width="218" height="29" alt="" src="https://github.com/user-attachments/assets/59ee4bdd-d213-409d-b947-6d359c867a8a" />
+
+### 4. Final Matrix
+
+Substituting the matrices back in:
+
+<img width="571" height="58" alt="" src="https://github.com/user-attachments/assets/9d9a5c15-3eaf-4907-aee2-1f6750afb028" />
+
+This is the standard **rotation matrix** for $`SO(2)`$.
+
+
+
+
+
+## Eigenvalue and eigenvector <sup>[14]</sup>
 
 ## Reference
 1. [Exponentials and Rotations (AAAA+)](https://www.math.umd.edu/~immortal/MATH401/book/ch_exponentials_and_rotations.pdf)
