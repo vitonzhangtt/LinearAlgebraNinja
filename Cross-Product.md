@@ -1,4 +1,4 @@
-# Cross Product <sup>TODO</sup>
+# Cross Product
 
 ## Definition
 
