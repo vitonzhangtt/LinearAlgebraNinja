@@ -204,7 +204,7 @@ Note: **expm** command in MATLAB.
 
 Let's compute the matrix exponential for the $`SO(2)`$ [**generator**](https://github.com/vitonzhangtt/MathNinja/blob/main/Lie-Group.md#generators-of-lie-groups-2). This is a classic example because it uses the Taylor series to derive the familiar rotation matrix.
 
-Given the generator <img width="125" height="56" alt="" src="https://github.com/user-attachments/assets/67ac4233-e199-4a2e-9dec-ed6e29e790df" />, we want to compute $`exp(\thetaJ)`$.
+Given the generator <img width="125" height="56" alt="" src="https://github.com/user-attachments/assets/67ac4233-e199-4a2e-9dec-ed6e29e790df" />, we want to compute $`exp(\theta J)`$.
 
 ### 1. Identify Powers of $`J`$
 
