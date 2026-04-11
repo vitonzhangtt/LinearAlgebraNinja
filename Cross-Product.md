@@ -24,6 +24,16 @@ where
 
 
 ## Conversion to matrix multiplication
+
+The cross product of two vectors, $`a \times b`$, can be represented as the multiplication of a **skew-symmetric matrix**
+$`[a]_{\times}`$ and the vector $`b`$. This matrix representation transforms the vector operation into linear matrix algebra: $`a \times b = [a]_{\times} b`$. (**NOTE**: We also write $`[a]_{\times}`$ as $`[a]`$)
+
+### Proof
+
+How to prove $`a \times b = [a]_{\times} b`$?
+
+
+### Example
 Let $`\vec{a} = {(a_{1}, a_{2}, a_{3})}`$ and $`\vec{b} = {(b_{1}, b_{2}, b_{3})}`$, then
 $`\vec{a} \times \vec{b} = [\vec{a}]{\vec{b}}`$. The $`[\vec{a}]`$ is defined as the following <br>
 
