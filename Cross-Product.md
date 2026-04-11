@@ -46,6 +46,12 @@ $`
   \end{bmatrix}
 `$
 
+## Properties of the Cross Product
+
+[TODO]
+
+
+
 ## Reference
 1. wiki: [Cross product](https://en.wikipedia.org/wiki/Cross_product)
 2. [Cross products, Math 130 Linear Algebra, D Joyce, Fall 2015](https://math.clarku.edu/~ma130/crossproducts.pdf)
