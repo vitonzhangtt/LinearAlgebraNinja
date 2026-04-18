@@ -50,14 +50,10 @@ The result indicates **direction similarity**: **positive (same direction)**, **
   $`b`$ (i.e., $`\lVert a \rVert cos(\theta)`$), scaled by the length of $`b`$ ($`\lVert b \rVert`$).
 * Alignment Indicator: The sign of the dot product shows how similar the directions are:
   * Positive: Vectors point in generally the same direction ($`\theta \lt 90^{\circ}`$).
-  * Zero: Vectors are perpendicular (or orthogonal), indicating no projection.
-  * Negative: Vectors point in generally opposite directions ().
-Component Representation: If 
- is a unit vector (length 
-), 
-
- directly gives the magnitude of the projection of 
- onto 
+  * Zero: Vectors are perpendicular ($`90^{\circ}`$ or **orthogonal**), indicating no projection.
+  * Negative: Vectors point in generally opposite directions ($`\theta \gt 90^{\circ}`$).
+* Component Representation: If $`a`$ is a unit vector (length $`1`$), directly gives the magnitude of the
+  projection of onto 
 
 
 
