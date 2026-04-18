@@ -52,8 +52,14 @@ The result indicates **direction similarity**: **positive (same direction)**, **
   * Positive: Vectors point in generally the same direction ($`\theta \lt 90^{\circ}`$).
   * Zero: Vectors are perpendicular ($`90^{\circ}`$ or **orthogonal**), indicating no projection.
   * Negative: Vectors point in generally opposite directions ($`\theta \gt 90^{\circ}`$).
-* Component Representation: If $`a`$ is a unit vector (length $`1`$), directly gives the magnitude of the
-  projection of onto 
+* Component Representation: If $`a`$ is a unit vector (length $`1`$), $`a \cdot b`$ directly gives the magnitude of 
+  the projection of $`b`$ onto $`a`$.
+
+### Commutative Property
+
+The dot product (or scalar product) satisfies the commutative property. 
+
+For any two real vectors $`a`$ and $`b`$, the order of the operation does not change the result: $`a \cdot b = b \cdot a`$.
 
 
 
