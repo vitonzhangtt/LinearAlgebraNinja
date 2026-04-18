@@ -49,7 +49,7 @@ The result indicates **direction similarity**: **positive (same direction)**, **
 * Projection Method: The dot product $`a \cdot b`$ is the length of the projection of vector $`a`$ onto vector <br>
   $`b`$ (i.e., $`\lVert a \rVert cos(\theta)`$), scaled by the length of $`b`$ ($`\lVert b \rVert`$).
 * Alignment Indicator: The sign of the dot product shows how similar the directions are:
-  * Positive: Vectors point in generally the same direction ($`\theta \lt 90^{\cicl}`$).
+  * Positive: Vectors point in generally the same direction ($`\theta \lt 90^{\circ}`$).
   * Zero: Vectors are perpendicular (or orthogonal), indicating no projection.
   * Negative: Vectors point in generally opposite directions ().
 Component Representation: If 
