@@ -91,9 +91,13 @@ the **volume** of a **parallelepiped**(平行六面体) formed by the three vect
 
 <img width="230" height="71" alt="" src="https://github.com/user-attachments/assets/b360a6ae-f46e-42a6-92b2-46138dbac894" />
 
+* Right Side: $`(a \times b) \cdot c`$ is the same as $`c \codt (a \times b)`$, which is the determinant with rows $`c, a, b`$:
 
+<img width="233" height="73" alt="" src="https://github.com/user-attachments/assets/382f1ff9-d645-4317-af94-aa73d937fe2e" />
 
-
+**Conclusion**: In linear algebra, swapping two rows of a determinant multiplies it by $`-1`$. <br>
+If you perform two swaps (e.g., move the bottom row to the top), the determinant value stays the same. <br>
+Since $`(c, a, b)`$ is a cyclic permutation of $`(a,b,c)`$, the values are equal.
 
 
 ## Reference
