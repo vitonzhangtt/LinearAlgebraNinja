@@ -88,7 +88,7 @@ $`
 
 ### Identity: $`a \cdot (b \times c) = (a \times b) \cdot c`$
 
-The easiest way to see this is through the [**determinant definition**](). Both sides of the equation represent <br>
+The easiest way to see this is through the [**determinant definition**](https://github.com/vitonzhangtt/LinearAlgebraNinja/blob/main/Cross-Product.md#3d-space). Both sides of the equation represent <br>
 the **volume** of a **parallelepiped**(平行六面体) formed by the three vectors.
 
 * Left Side: $`a \cdot (b \times c)`$ is the determinant of a $`3 \times 3`$ matrix with rows $`a, b, c`$:
