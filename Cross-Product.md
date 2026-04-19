@@ -82,6 +82,10 @@ $`
 
 ## Identities
 
+| Term | Chinese ｜
+| - | - |
+| Identity | 恒等式 |
+
 ### Identity: $`a \cdot (b \times c) = (a \times b) \cdot c`$
 
 The easiest way to see this is through the [**determinant definition**](). Both sides of the equation represent <br>
@@ -91,13 +95,24 @@ the **volume** of a **parallelepiped**(平行六面体) formed by the three vect
 
 <img width="230" height="71" alt="" src="https://github.com/user-attachments/assets/b360a6ae-f46e-42a6-92b2-46138dbac894" />
 
-* Right Side: $`(a \times b) \cdot c`$ is the same as $`c \codt (a \times b)`$, which is the determinant with rows $`c, a, b`$:
+* Right Side: $`(a \times b) \cdot c`$ is the same as $`c \cdot (a \times b)`$, which is the determinant with rows $`c, a, b`$:
 
 <img width="233" height="73" alt="" src="https://github.com/user-attachments/assets/382f1ff9-d645-4317-af94-aa73d937fe2e" />
 
 **Conclusion**: In linear algebra, swapping two rows of a determinant multiplies it by $`-1`$. <br>
 If you perform two swaps (e.g., move the bottom row to the top), the determinant value stays the same. <br>
 Since $`(c, a, b)`$ is a cyclic permutation of $`(a,b,c)`$, the values are equal.
+
+### Identity: $`a \times (b \times c) = (a \cdot c)b - (a \cdot b)c`$
+
+This is often called the BAC-CAB identity. Let's prove the $`x`$-component ($`i`$ component) to show how it works.
+
+<img width="521" height="384" alt="" src="https://github.com/user-attachments/assets/382ddaff-257a-403e-ad82-254b8ce24973" />
+
+**Conclusion**:
+
+Since this holds for the $`x`$, $`y`$ and $`z`$ components, the vector identity is proven: $`a \cdot (b \times c) = (a \times b) \cdot c`$
+
 
 
 ## Reference
