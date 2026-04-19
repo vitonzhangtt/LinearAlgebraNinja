@@ -82,7 +82,7 @@ $`
 
 ## Identities
 
-| Term | Chinese ｜
+| Term | Chinese |
 | - | - |
 | Identity | 恒等式 |
 
